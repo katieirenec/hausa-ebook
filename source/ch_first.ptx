@@ -10,6 +10,7 @@
   <!-- before those sections. Note the <p> tags around content.  -->
   <introduction>
     <p>This is the introduction to the chapter</p>
+    <!-- extra comment -->
   </introduction>
 
   <!-- Sections can be written directly here, but it might help  -->
