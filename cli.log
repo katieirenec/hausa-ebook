@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 INFO    : PreTeXt project found in `/Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook`.
 INFO    : Now preparing local server to preview directory `/Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/output/web`.
+=======
+INFO    : PreTeXt project found in `/Users/aaronalberg/repos/hausa-ebook`.
+INFO    : Now preparing local server to preview directory `/Users/aaronalberg/repos/hausa-ebook/output/web`.
+>>>>>>> 591eabf07d8bd5eed4e76813857a76a24ee0f1b1
 INFO    :   (Reminder: use `pretext deploy` to deploy your built project to a public
 INFO    :   GitHub Pages site that can be shared with readers who cannot access your
 INFO    :   personal computer.)
