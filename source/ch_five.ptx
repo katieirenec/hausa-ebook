@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Chapters are enclosed with <chapter> tags. Use xml:id to -->
+<!-- uniquely identify the chapter.  The @xmlns:xi attribute  -->
+<!-- is needed if you use xi:include in this file             -->
+<chapter xml:id="ch_five" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Tsarin kewaye ko maimaita kansa (looping structure)</title>
+  <introduction>
+    <p>
+        Tsari mai kewaye Awannan babi,zamu kara fadada hangenmu ne zuwa
+Gawani tsarin na daban daya shafi tsarikan gudanarwa na harsunan kirkira.
+Idan ba’amantaba,a babin da ya wuce muntattauna ne game datsarin da
+</p> <p>
+Ake kira da tsarin zaba(decision structure) dakuma tsari mai bi daki-
+daki(sequence structure) inda mukace tsarin zaba tsarin aikin sa ya
+</p> <p>
+danganta ne da yadda amsar sharadin ka'idar ka ne yake,ma'ana dai yakan
+Aiwatar da umarnin da yake tare da shine idan amsar sharadin ka'idarka ta
+Zamanto E ne (True). A wannan babi kuwa zamuyi dubane zuwa ga wani
+Tsari da akeson yarinka maimaita umarnin da aka bashi tareda karanta 
+Sharadin ka'idarda aka sakamishia kowace kewayowa da zai yi a yayin 
+Gudanar manhaja sau wasu adadin da aka saka mishi. Sannana wannan
+Babin zamu yi duba zuwa ga ire-iren wannan tsari dama matsalolin da ake
+Cin karodasu ayayin amfani da wannan tsarin.
+Sannan a karshe kuma zamu yi duba zuwa ga wasu misalai azahiri da zai
+Taimaka maka mai karatu awajen kara maka fahimtar wannan tsarin.
+
+    </p>
+  </introduction>
+
+    <p>
+        Tsarin kewaye ko maimaita kansa (looping structure).
+Tsari mai kewaye Awannan babi,zamu kara fadada hangenmu ne zuwa
+Gawani tsarin na daban daya shafi tsarikan gudanarwa na harsunan kirkira.
+Idan ba’amantaba,a babin da ya wuce muntattauna ne game datsarin da
+</p><p>
+Ake kira da tsarin zaba(decision structure) dakuma tsari mai bi daki-
+daki(sequence structure) inda mukace tsarin zaba tsarin aikin sa ya
+</p><p>
+danganta ne da yadda amsar sharadin ka'idar ka ne yake,ma'ana dai yakan
+Aiwatar da umarnin da yake tare da shine idan amsar sharadin ka'idarka ta
+Zamanto E ne (True). A wannan babi kuwa zamuyi dubane zuwa ga wani
+Tsari da akeson yarinka maimaita umarnin da aka bashi tareda karanta 
+Sharadin ka'idarda aka sakamishia kowace kewayowa da zai yi a yayin 
+Gudanar manhaja sau wasu adadin da aka saka mishi. Sannana wannan
+Babin zamu yi duba zuwa ga ire-iren wannan tsari dama matsalolin da ake
+Cin karodasu ayayin amfani da wannan tsarin.
+Sannan a karshe kuma zamu yi duba zuwa ga wasu misalai azahiri da zai
+Taimaka maka mai karatu awajen kara maka fahimtar wannan tsarin.
+</p><p>
+Gabatarwa game da tsari mai kewaye ko maimaita kansa (looping
+structure).
+</p><p>
+Abubuwan da muka koya abaya sun kara mana haske game da yadda ake
+Amfani da wasu tsarikan wajen sanya ka'idoji dama sharruda masu dan 
+Sauki acikin manhaja.Saboda haka sanin tsarikannan na babin baya kadai,
+Zai iya bamu damar rubuta irin tsarin manhajar da mukeso cikin sauki da 
+kwarewa.Idan muka sake yin waiwaye game da misalin mu nabaya da ya
+Wuce na Haidar da yar uwarsa Maimuna,bayan kirkirar wancen manhajar
+Da Haidar yayi mata saitace yanzu kuwa manhajar yana yin aiki da kyau
+Kuma har ma yakarasa kasan a'artatatabunka sa sosai amma tana son a
+Sabunta manhajar domina sanya  dabarar da zair inka kirga jimilar kudin da
+Shagon nata yake samarwa a kowacce sati dama wasu lissafe-lissafen na 
+Daban. Awannan sabon tsarin manhajar,sai kuwa Haidar yayi amfani da 
+Ilminsa nasanin tsari mai kewaye kot sari mai maimaita kansa(repetation
+structure) a wajen aiwatar da wannan aiki.
+Yadda manhajar zai yi aiki kuwa shine da farko zai tambayi abokin
+ Cinikayya misali bari muce Maimuna daga ranar Litinin harzuwa Lahadi sannan shikuma
+Manhajarsa na iiyalissafa yawan kudin da aka samu asati sannan ya bayyana
+sakamakon.Alhalikuwa ana so Haidar yayi amfani da layi daya kuwa ya rinka
+Kewayowa yana bada damar saka yawan kudin kowacce rana daga mai
+Amfani dashi har sau bakwai.To abin tambayar shine tayaya za’ayi
+Haidar  yayi wannan da ba kira'tsari mai  kewaye'ko'tsari mai maimaita 
+kansa' (repetition structure).
+</p><p>
+Tsari maikewaye komai maimaita kansa (repetition structure): Tsarine
+</p><p>
+da yake sanya maimaituwar karanta layin umarni guda har sau wani adadin
+da makirkiri (programmer)yasanya masa yayin gina manhajar.
+</p><p>
+Lalle wannan tsarin amai kewaye ko mai maimaita kansa yana taimakawa 
+matuka a wajen sanya manhaja ta rin kamaimaita aikin ta har sau wani
+Adadi mai yawa domin aiwatar da wani umarni. Sannan yana taimakawa a 
+Wajen takaice layikan umarni masu yawazuwalayikayankadanyayingina
+manhaja,sannankodawanigyaraza'ayiacikinlayikanumarni(codes)na
+manhajar,tokuwagyararzaikasanceneawajegudakawaikumabatare
+daanshawatawahalasosaiba.Wannankewayawarkomaimaituwada
+manhajarkeyitadalilinamfanidalayinumarnigudashiakekiradasuna
+'Looping'afanninharsunankirikira(programminglanguages),kumaabune
+sananneawannanfanni.Ire-irentsarimaikewayekomaimaimaitakansa
+yakasukashibiyu;sune:tsarimaikewayemaiamfanidasharadinka'ida
+(conditional),dakumatsarimaikewayemaiamfanidasharadin'counter'.
+Dukkansuwadannantsarikanzamuyidubiacikinsuawannanbabinin
+Allahyayarda.
+</p><p>
+//zanenflochatin.
+</p><p>
+1)Tsarimaikewayekomaimaitakansamaiamfanidasharadincounter
+(conter-controlledloop).
+Awannantsarinmaikewayen,manhajarzaidingakewayowanesannanya
+rinkakarakorage1asharadinka'idardaakasakamishisannanalokaci
+gudakumayanaaunasharadinka'idardayakekaruwakoraguwaridanta
+</p><p>
+wuceadadinsharadinka'idadaakeso,tosaiyadakatardaaikinmanhajar
+anankokumayashigakarantawasulayikanumarnidabasudaalakada
+wannantsarimaikewayen,ammaidanyakarakoyarage1sannanyaauna
+saibaikaisharadinka'idardaakasakamishiba,tosaiyabaraikin
+manhajaryasakekewayoyawa,hakazaiyitayiharsaiyacimmabukata.A
+kowaccekewayowayanakiyayesharadindaakayimasakarikoragina
+baya.Ma'anaidansharadinka'idaryanarikeda1nedazu,tosaiyakara
+masa1tokagakuwasabonsharadinka'idaryazama2kenan.Tokuwa
+wannan2shinetsarimaikewayena'counter'zaikiyayeamatsayinsabon
+sharadinka'ida.
+Wannantsarinamaikewayekomaimaimaitakansana'counter'yanada
+bangaroriharguda4.Sune:
+➡ Gurbinkaddaramafarinka'ida(initializationstage):Wannangurbine
+daakekaddarafarkonlambakoharafindaakesoyazamasharadinka'ida
+nafarkodazaifaraaiwatardaumarnidaakabashi.Misaliamisalinmuna
+Haidarzaikaddaramafarinlambarsharadinka'idarneda1watoamadadin
+ranarLitinin.
+➡ Gurbinaunasharadinka'ida(Testcondition):Wannankumagurbineda
+zaidingaaunasabonsharadinka'idakafinyabarmanhajaryasake
+kewayowa,bambancinsadagurbinkaddaramafarinsharadinka'idashine;
+shigurbinkaddaramafarinsharadinka'idasaudayakawaimanhajarke
+karantashiafarkodominfaraaikinaiwatardaumarnindaakasakamasa,
+ammashiwannantsarinabiyunagurbinaunasharadinka'ida(Test
+condition)shine;akowaccekewayowadamanhajarkeyisaiyakaranta
+taredaaunasabonsharadinka'idarkafinnanyabadadamaraiwatarda
+umarnindaketaredawannanka'idar,sabodahakayayindasabon
+sharadinka'idayazarceadadindaakasakamasaakesonkaryawucena
+yawankewayowadaakesoyayiyayingudanarmanhajartokuwasaikaga
+manhajaryadakatadaganan.
+Atakaicedai,awannanbangarenabiyunaikinmanhajazaicigabada
+aiwatuwanematukarsaiidanamsarsharadinka'idarkayazamtoE(True)
+ammayayindaakasamuyazamaA'a(False)toaikinmanhajarzaidakata.
+</p><p>
+Misali.
+Asaukake:
+</p><p>
+Ranakudai-daiyakeda1;
+Ranakukaryawuce7;
+Ranakuakaramasa1;
+Layikanumarni.....
+...............................
+................................
+Shikenan.
+</p><p>
+➡Gurbinkaddarakarshensharadinka'ida.
+Awannanbangarenaukukuwa;anakaddarayawankewayenedaakeson
+manhajarzaiyisannanyadakata.Misalikamaramisalinmudayagabata,
+idankadubagurbinkaddarakarshensharadinka'idar'Ranaku'zakagaan
+kaddarakarshensharadinka'idarneda7wandahakanyananunacewar
+lalleneakowaccekewayowarmanhajar,todolenesaiyaaunasabon
+sharafinka'idarna'Ranaku'da7 wandaidanharsabonsharadinyakai8
+watoyawuce7tosaiyadakatardamanhajardagasakewanikewayowa
+taredashigakarantajerinwasulayikanumarnidabasushafitsarimai
+kewayebadasukeasauransassanmanhajar.
+Ammaidansabonsharadinka'idarbaizarceabindaakesoba,tosaiya
+shigakarantalayikanumarnidasukecikintsarimaikewayensunewajen
+dazaibadadamarsakajimilaryawankudindaakasamuakowaccerana
+sannanyagudanardadukwasulissafe-lissafetaredabayyanasakamako.
+</p><p>
+➡ Gurbinkarakoragesharadinka'ida:Wannangurbinamfaninsashineya
+rinkakarakorage1akowaccekewayowadamanhajarkeyidominda
+hakaneharzaiisoyawanadadindaakebukatadomindakatardaaikin
+manhajar.Idanbabuwannanbangarentokuwakewayenaikinmanhajarba
+zaitabatsayawabadominakodayausheamsarsharadinka'idarkala
+dayanesabodahakakoyausheamsarzaizamaEne(True)toammaidan
+akowaccekewayewannanbangarenzaikara koyarage1tokuwada
+hakanehardaizaiisowaniadadidaakesonyadakata.Rashinsanya
+</p><p>
+wannanbangareatsarimaikewayenajanyoabindaakekirada'tsarimai
+kewayemaraiyaka'(Infiniteloop).
+Tsarimaikewayemaraiyaka(Infiniteloop):Tsarinedayakesanyaaikin
+manhajayayitakewayowakomaimaituwabataredaadadiba.Amanhajar
+Haidar,shiyasanyatsarinsanamaikawayedayakasancekewayosau
+bakwainekawaihakakuwamanhajarzaiyitakewayowadataimakon
+wannanbangarenna gurbinkarakoragesharadinka'ida,kewayowarzai
+rinkakaruwada1harsaiyaisosau7dagasaiyadakata.
+</p><p>
+Tsarinkewayedakalmar'for'
+Mafiyawadagaharsunankirkirasunadatsarindayakebadadamargina
+manhajamaitsarimaikewayena'counter'.Dayadagamisalinkalmominda
+akeamfanidasuawajenyinwannanaikishinekalmar'for'.
+GamisalinyaddamanhajarHaidarzaikasanceidanakayiamfanida
+kalmar'for'ayayinginamanhajar.
+Asaukake:
+</p><p>
+for(kirgaRanakudaga1zuwa7)
+Rubuta"Sakajimilarkudinkowaccerana"
+Lissafayawangabadayakudinranaku
+sannanaadanasu.
+Dakatardaaikinkalmar'for'
+</p><p>
+2)Tsarimaikewayowadafarkokafinfaraamfanidasharadinka'ida:A
+wannantsarin,manhajarzaifaraaiwatardaumarnindaakasakamishine
+farkosannansaiyafarala'akaridasharadinka'idakafinyasakekewayowa.
+Saiyatabbatardacewaramsarsharadinka'idarkatazamantoEne(True)
+dominyasakekewayowaidanbahakabakuwabazaikewayobazai
+dakata.Shiwannantsarinnatsarimaikewayemaiamfanidasharadin
+ka'ida,yafila'akaridafarkonsharadinka'idasamadaadadinyawan
+</p><p>
+kewayowardazaiyi.
+Ayayinamfanidawannantsarinabiyun,akwaikalmomiguda3wandanda
+kowanneanaiyaamfanidashiawajentsarawannantsari.Sune;'While',
+'Dowhile'dakuma'Dountil'.
+</p><p>
+Kalmar'While'
+Wannan kalmaramfaninsashineyarinkasanyaaikin manhajayana
+zagayowakomaimaituwabataredaansanyamasaadadindaakesoya
+tsayaba,kawaidaidolenefarkonsharadinka'idarkayakasanceEne(True)
+kafinmanhajaryasakekewayowaammayayindasharadinyajuyazuwa
+A'a(False),tokuwamanhajarzaidakatadagakewayendayakeyi.
+Bakamarakalmar'for'damukayibayaniabayabaindashiwannankalma
+na'while'yakedabangarebiyukawai,sune;bangarenfarkoshinegurbin
+sharadinka'ida.Wannanbangare shinemanhajarkeaunawafarkodomin
+sanincewakosharadindaakesoyacikashi(True)kokuwaa'a(False)
+kafinyashigafaraaikinkewayowa.Sannanbangarenabiyukumashine
+asalingundarinumarnindaakasanyamasadayaaiwatarkumashinezai
+yitamaimaitashisauwasuadadimasuyawasabaninkalmar'for'daake
+sanyamasasharadinfarawadakumasharadindakatarwa.
+GakadandagamisalinyaddamanhajarHaidartakeidanzamuyiamfanida
+kalmar'while'.
+</p><p>
+<!-- Asaukake:
+Misalimukaddaracewa
+mafarin_ka'idayazama1;
+While(mafarin_ka'ida<=7kwanaki);
+Rubuta"Sakakudindaakasamuakowaccerana";
+Adanasakamako;
+Kara1gamafarin_ka'ida;
+DakatardaaikinkalmarWhile -->
+
+Fa'ida:
+Zakaiyasanyayanayinkarindakakesoyakasancekomanawane.(Zaka
+iyacenzashizuwaragewaidandabukatarhakan).
+</p><p>
+Kalmar'Dowhile'
+Wannanshimadaiaikinsakamarnakalmar'while'dinyaketosaidaishi
+indayadanbambantadawancenkalmarshine;atsarinkalmar'Dowhile'
+saimanhajaryafaraaiwatardalayikanumarnindaakasanyamasafarko
+kafinyajeyakarantasharadinka'idardaakasakamishisabaninkalmar
+'While'wandadolenesaiyafarakarantasharadinka'idarkafinyaaiwatar
+dalayikanumarnindaakasanyamasa.Kalmar'while'sharadinka'idashine
+farisannanlayikanumarniammakalmar'Dowhile'kuwaumarnifarko
+sannansharadinka'ida.
+Amfanidawadannankalmominbiyunataimakawamatukaawajenkirkirar
+manhajojiiri-irisannancikinsaukidakwarewadominsukansamarda
+tsarinfitadagamanhajayayindamutumyasanyawasunau'ikanrubutuna
+musamman.
+Nau'ikanrubutunamusamman(sentinelvalues):Wasualamominena
+rubutunamusammandaidanakasanyasualokacindaakeaikida
+manhajakanjanyodakatardamanhajataredafitadagatsarindazaibaka
+damarsakekewayowa.
+Dukkansukalmominbiyu('Dowhile'da'Dountil')anaiyaamfanidasua
+wajenyinaikiirigudamatukarsoakeasamutsarimaikewayesamada
+gudaamanhaja.
+</p><p>
+GakadandagamisalinyaddamanhajarHaidartakeidanzamuyiamfanida
+Kalmar'Dowhile'.
+</p><p>
+Asaukake:
+Misalimukaddaracewamafarin_ka'idayazama1;
+</p><p>
+<!-- Do
+Rubuta"Sakakudindaakasamu akowaccerana";
+Adanasakamako;
+Kara1gamafarin_ka'ida;
+While(mafarin_ka'ida<=7kwanaki)
+DakatardaaikinkalmarWhile -->
+
+Fa'ida:
+Ananidankadubazakagacewarumarnindaakabawamanhajarneya
+faraaiwatarwawatoyanuna"Sakakudindaakasamuakowaccerana"
+sannandagabayasaiakabashisharadindaakesoyacikanaka'idakafin
+yasakekewayowa,watoshinesaiidanmafarin_ka'idayayikasakoyayi
+dai-daida7sannanzaisakezagayowaidanbahakabakuwayadakata.
+Watodaiakalmar'Dowhile'saiamsarsharadinka'idarmutazamtoEnene
+(True)sannanzaikewayo ammaidankuwaakasamuA'a(False)a
+matsayinamsarsharadinka'idartokuwakewayowarzaidakata.
+</p><p>
+Kalmar'Dountil'
+Amfaninwannankalmar'Dountil'kusandayanedakalmar'Dowhile'
+dominkuwakalmar'Dountil'zaibadadamaraikinmanhajaryacigabada
+kewayowaharsaisharadinka'idaryazamaE(True)sannanzaidakata.
+Ammashikuwakalmar'Do while'manhajarzaidingakewayowane
+matukarsharadinka'idarkatazamantoE(True)tsarinsakusangudaneda
+nakalmar'Dowhile'.Atsarinkalmar'Dountil'da'Dowhile'asalinlayikan
+umarnindaakabawamanhajarnezaifaraaikatuwasannanyaauna
+sharadinka'idadominyatantanceshinzaisakekewayowakokuwazai
+dakataanan,sabodahakaakallazaiaikatusaudayakafinfaraauna
+sharadinka'idar.
+Shikalmar'Dowhile'kewayowarsayadangantanedasaiidanansamu
+amsarsharadinka'idarmutazamaE(True)ammashikuwa'Dountil'sai
+sharadinka'idartazamtoA'ane(False)dominsakesabonkewayowa.
+
+<!-- GamisalinyaddatsarinmanhajarHaidarzaikasanceidanzamuyiamfani
+dakalmar'Dountil'dominsanyamanhajaryarinkakewayowayanakarbar
+jimilarkudinkowacceranaharnaranaku7.
+Asaukake:
+Misalimukaddaracewa
+mafarin_ka'idayazama1;
+Do
+Rubuta"Sakakudindaakasamu akowaccerana";
+Adanasakamako;
+Kara1gamafarin_ka'ida;
+until(mafarin_ka'ida<=7kwanaki)
+Dakatardaaikinkalmaruntil -->
+
+Fa'ida:
+Ananidankadubazakagacewarlayikanumarnindaakabawamanhajar
+neyafaraaiwatarwawatoyarubuta"Sakakudindaakasamuakowacce
+rana"sannandagabayasaiakabashisharadindaakesoyacikanaka'ida
+kafinyasakekewayowa,watoshinesaiidanmafarin_ka'idayayikasako
+yayidai-daida7sannanzaisakezagayowaidanbahakabakuwaya
+dakata.Watodaiakalmar'Dountil'saiamsarsharadinka'idarmutazamto
+A'ane(False)sannanzaikewayoidankuwaakasamuE(True)amatsayin
+amsarsharadinka'idartokuwakewayowarzaidakata.
+(Sabodahakasaikayinazarisosaiawajenbambancetsakaninsudomin
+wanilokacisunarikitarwa).
+</p><p>
+Tsarimaikewayecikinwanitsarimaikewayen.(Nestedloop).
+</p><p>
+Kafindaimutikeawannanbabiyakamatamudanyiwaiwayeagameda
+tsarin'Nesting'waddamukayibayaninsaababindayagabata,idanbaa
+</p><p>
+mantabamunce'Nesting'yananufinwanitsarinedayakebadadamar
+sanyawasukananan
+ka'idojitaredaumarnicikinwasukowaniumarnin. Tsarinedayake
+kunshedaginawanitsarincikinwani.Ma'anashinestinshineginako
+sanyawanitsaricikinwanitsarin.Misali.Abayamunceza'aiyasanyatsari
+</p><p>
+maibidaki-daki(sequentialcontrolstructure)cikinwanitsarimaibidaki-
+dakikoasanyatsarimaizabe(selectioncontrolstructure)cikinwanitsari
+</p><p>
+maizabendadaisauransu.
+Tokuwaananmazamuiyaamfanidawannantsarinanestinwatoanaiya
+sanyatsarimaikewayekomaimaimaituwacikinwanitsarimaikewayen
+dominaiwatardawaniumarni.
+Anaamfanidawannantsarinaginakosakatsarimaikewayecikinwani
+tsarimaikewayenneawajenyinabubuwadadama.Misali.Idananasona
+kirgakwantattunlayika(rows)dakumatsayayyunlayika(columns)tokuwa
+dataimakonkalmar'for'hakanzaiyiwucikinsauki.Misalimukaddara
+munadakwantattunlayika3dakumatsayayyunlayika2damutaneke
+zaunaakai;wato3da2.Sabodahaka;idanmunasonmuyiyaddazamu
+sanyamanhajarmutasamardagurbindazaidaukisunankowanemutum
+awadannanlayikan,tosaimuyiamfanidakalmar'for'sannanmusanya
+masasharadinka'idardazaibashidamarkewayowasau3sannanmu
+sakesakawanikalmar'for'shikumamusakamishisharadinka'idarsaya
+kewayosau2.Sabodahaka;kalmar'for'dazaibadadamarzagayowasau
+3shinezaikunshikalmar'for'dazaizagayosau2.Akarshekuwahakan
+zaisamarmanadadamardamanhajarmuzairinkakewayowayanakarbar
+sunayeharsau6.Wato3sau2shine6.
+Kenan,kalmar'for'nafarkozaitabbatardacewarmanhajarzaidinga
+kewayowayanasamarmanadagurbinsanyasunayeharsau3,kalmar'for'
+dayankumazaitabbatardacewarmanhajaryamaimaitaaikindaaka
+sanyawakalmar'for'nafarkoharsau2.Kagakenan,3sau2shine6
+sabodahaka,manhajarmuzaibamudamardaukarsunayenmutum shida
+dasukekanwadannanlayika.
+Towannantsarindaakabiawajensakakoginakalmar'for'cikinwata
+kalmar'for'shiakekira"Tsarimaikewayecikinwanitsarimaikewaye".
+</p><p>
+(Misalinsaahoto).
+</p><p>
+Akarshedai,maikaratumunfahimcicewartsarimaikewayekomai
+maimaitakansatsarinemaimatukaramfaniawajenkirkirarmanhajojida
+zasubiyamanabukatunmuaawajajedaban-dabankumaalokacidaban
+-daban.Ammakadakamantacewar;akodayausheidankatashiamfani
+datsarimaikewayeamanhajarka,tokasamarmasadasharadinka'idada
+zaidakatardashidagakewayowadayakeyiidanbahakabakuwawannan
+zaihaifarmakadatsarindabasoshinetsarimaikewayemaraadadi
+(infiniteloop).Sabodahakayanzumundansamuhaskegamedawannan
+tsarinkodakuwakadanne.
+Kanazarciwadannantambayoyi.
+
+
+    </p>
+</chapter>
