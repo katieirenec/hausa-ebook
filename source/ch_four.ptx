@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_four" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>BABI NA HUDU</title>
+  <introduction>
+    <p>
+    A wannan babin zamu yi dubine zuwa ga daya daga cikin wani tsarin sarrafa program da ake
+kira 'tari mai cenki-cenki' wato ‘decision structure’. Zamuyi dubine zuwa ga yadda za'a iya amfani da shi a yayin tsara manhaja ko program da kuma su menene suka hadu suka samar da tsarin tareda ma yadda ake amfani da shi a yayin rubuta program. A karshe kuwa babin zai yi dubine zuwa ga misalai da kuma aikinsa a zahiri ma'ana da gurarenda ya kamata ace anyi amfani da shi domin karawa mai karatu fahimta.
+    </p>
+    <p>
+    A kaddara kana son program naka ya aiwatarda wani aiki na musamman kuma ta wani hanya 
+na musamman.Misali, Haidar yana son ya taimaki yayarsa Maimuna domin habaka ko inganta 
+Wajen sana'arta na dakin kafe ta hanyar sanya ragi ga duk wanda yayi ciniki da ya kai ko ya wuce Naira 5,000 saboda haka,sai Haidar ya kirkiri wani manhaja da zai sanya sauki ga duk wanda yayi cinikin da ya kai ko ya wuce Naira 5,000 ta hanyar bawa mai ciniki damar saka yawan kudinda ya kashe a shagon sannan ya auna tare da aiwatar da abinda ya dace ma'ana ko ya sanya ragin ko kuwa akasin hakan saboda haka su kuwa masu abokan ciki sai suyi amfani da shi a wajen biyan kudi.Tambaya maimuhimmanci anan shine, ta yaya Haidar ya tsara wannan manhajar? Amsa ita ce ya sanya tsarin da ake kira tsarin zaba a yayin kirkirar program nashi.
+</p>
+    <p>
+Shi wannan tsarin zaba ya sha bamban da tsari mai bi daki-daki a wajen sarrafa ko 
+karanta program domin kuwa shi tsarin zaba ba layi-layi yake bi wajen karanta program ba 
+sabanin shi kuwa tsari da yake bi daki-daki wanda haka yake yi wajen sarrafa program. Dabarar da yake bayan hakan kuwa shine domin aiwatarda wani aikine da ake son yin matukar mutum ya cika wasu ka'idoji koka'ida. Misali, Ali ne yake dawowa daga makaranta amma yayinda ya ga dutse a hanyarsa to ya kaucewa dutsen.
+</p>
+    <p>
+To yanzu anan,sai muce 'Ali yana dawowa daga makaranta' shine misalin tsari da yake bi daki-daki kamar yadda muka koya a baya a babi na biyu, domin kuwa Ali yana tafiyarsa ne taku bayan taku ba tareda ya tsallake wani waje ba.To amma yayinda yaga dutse a hanyarsa kuwa sai hakan zai sanya shi ya sake hanya domin kaucewa dutsen to wannan kuma shine misalin tsari mai zabe. Saboda haka tsari mai zabe ana iya sanya shi a ko'ina domin zabar matakinda ya fi dacewa da ka'idar da aka saka.
+</p>
+    <p>
+    Tsarin Boolean. 
+</p>
+    <p>
+Zaka iya tambayar kanka cewar shin zai iya yiwuwa ace akwai tsarinda za'a iya bi domin
+Aiwatarda wani aiki a program ta amfani da ka'idar E (gaskiya) ko kuwa A'a (karya) wato (True da False)? 
+</p>
+    <p>
+A misalinmu na dazu cewar Ali yana dawowa daga makaranta idan yaga dutse a hanyarshi to ya kauce masa.To yanzu anan, abinda zamu dauka a matsayin Boolean shine idan ya ga dutse a hanyarsa to amsarmu itace E (gaskiya) wato 'True' amma idan bai gani ba amsarmu itace A'a
+ (karya) wato 'False'. Saboda haka tsari zaba yana faruwane da taimakon amsarda aka samu 
+a tsarin na Boolean wato E ko A'a (True ko False).
+</p>
+    <p>
+Kwatancen matsayi a lissafi (Relational operators).
+</p>
+    <p>
+Na san zaka iya tuna yadda ake lissafi da kwatanta matsayin wata lamba da wata lambar yayin 
+lissafi musammanma a ajin darasin lissafi (Maths).Shima dai wannan tsarin da zamu yi
+magana akai kamar hakan yake sannan wani lokacin suna nan kamar tsarin na Boolean ne. A 
+Wannan tsarin na kwatanta matsayin abu da wani abun (wannan abun zai iya kasancewa lamba, harrafi, kalma d.s) a lissafi ana amfani da wasu harrufane na musamman a wajen yin irin 
+wannan lissafin.
+</p>
+    <p>
+Misali, idan ana so a kwatanta matsayin 3 da 5 to sai a rubuta kamar haka:
+</p>
+    <p>
+if(3>5)
+</p>
+    <p>
+Ga wadansu daga irin wadannan alamomi da ake kwatanta matsayin abu da su:
+</p>
+    <p>
+// Insert Table// 
+</p>
+    <p>
+Misali, a wancen yanayin da Haidar ya bi domin sanya rahusa ga masu cinikin da ya kai ko ya 
+wuce Naira 5,000. To kuwa anan, zamuce lalle Haidar yayi amfanine da wannan tsarin na tsarin
+kwatanta matsayin abu a lissafi inda ya kwatanta kudin da mutum ya kashe a shagonsu da 
+cewar idan ya kai ko ya wuce Naira 5,000 to ya sanya masa ragi ga abinda zai biya kamar haka:
+</p>
+    <p>
+// Insert example//
+</p>
+    <p>
+Da farko zai tambayeka da ka saka yawan kudin da kakashe sannan sai ya auna ya gani 
+idan kudinda mai siya ya kashe ya kai ko ya wuce Naira 5,000 to ya sanya masa ragin kashi 10 
+sannan ya bayyana kudin da zai biya.
+</p>
+    <p>
+Misali, idan ana so a kwatanta matsayin 3 da 5 to sai a rubuta kamar haka:
+</p>
+    <p>
+if(3>5)
+</p>
+    <p>
+Ga wadansu daga irin wadannan alamomi da ake kwatanta matsayin abu da su:
+</p>
+    <p>
+// Insert Table// 
+</p>
+    <p>
+Misali, a wancen yanayin da Haidar ya bi domin sanya rahusa ga masu cinikin da ya kai ko ya 
+wuce Naira 5,000. To kuwa anan, zamuce lalle Haidar yayi amfanine da wannan tsarin na tsarin
+kwatanta matsayin abu a lissafi inda ya kwatanta kudin da mutum ya kashe a shagonsu da 
+cewar idan ya kai ko ya wuce Naira 5,000 to ya sanya masa ragi ga abinda zai biya kamar haka:
+</p>
+    <p>
+// Insert example//
+</p>
+    <p>
+Da farko zai tambayeka da ka saka yawan kudin da kakashe sannan sai ya auna ya gani 
+idan kudinda mai siya ya kashe ya kai ko ya wuce Naira 5,000 to ya sanya masa ragin kashi 10 
+sannan ya bayyana kudin da zai biya.
+</p>
+    <p>
+Tsarin lissafi na dabaru (Logical Operators).
+</p>
+    <p>
+Wato kamarsu "AND" da "OR".
+</p>
+    <p>
+Hakan zai saka mamaki matukar ka san cewar zaka iya game tsarin da 
+yake kunshe da tsarin Boolean sama da guda daya a lokaci daya sannan kuma duka a 
+lissafi daya.
+</p>
+    <p>
+To bari mu waiwayi misalinmu na cen baya a game din da Ali yana dawowa 
+daga makaranta. A misalin an ce ana so Ali ya kauce matukar ya ga dutse 
+ko ruwa a hanyarsa. To yaya za a yi a sanya wannan ka'idar a wajen kirkirar 
+manhaja cewa matukar Ali ya ga dutse ko ruwa? To kuwa hakan zai iya 
+yiwuwane ta hanyar amfani da wasu dabaru da ake kira 'tsarin lissafi na
+dabaru'.
+</p>
+    <p>
+Tsarin lissafi na dabaru yana iya game ka'idar da ake so amsarta ya 
+Kasance E (TRUE) ko A'A (FALSE) sama da guda a lissafi guda. Kalmomin 
+da ake amfani da su a wajen yin wadannan dabaru sun hada da su:AND, 
+OR, da NOT.
+</p>
+    <p>
+AND (SANNAN). 
+</p>
+    <p>
+Wannan kalma ana amfani da itane a yayinda ake son aiwatar da wani 
+umarni amma sai matukar amsar kowacce ka'ida ya zamanto E ne (TRUE) 
+sai kuwa amsar umarninka ya zamanto E (TRUE) daga nan kuwa sai 
+umarnin ya aiwatu. Amsar wannan lissafi zai zama E ne (TRUE) matukar 
+kowacce ka'ida amsarsa ya zama E (TRUE) wato gaskiyane idan ba haka 
+ba kuwa amsar lissafin zai zamanto A'A (FALSE) wato karya (FALSE). 
+</p>
+    <p>
+Jadawali mai lamba 4-2 yana dauke da misalin yadda za'ayi amfani da 
+Kalmar ta AND. 
+</p>
+    <p>
+// Insert Table //
+</p>
+    <p>
+
+
+NOT (MUSANYA).
+</p>
+    <p>
+Shi kuwa wannan kalmar ana amfani da itane domin juya ko cenza amsar 
+lissafin boolean zuwa dan uwansa. Wato yayi musanyar amsar da aka 
+saka a wata ka'idar zuwa wata amsar. Misali, yayin da aka samu amsar E 
+ne (TRUE) a ka'ida to kuwa amarka zai zama A'A (FALSE) idan kuwa A'A 
+ne (FALSE) zai juya shi zuwa E ne (TRUE). Wannan kalmar ana amfani da 
+itane a ka'idar daya kawai sabanin sauran kalmomin na AND da OR.
+</p>
+    <p>
+Jadawali mai lamba 4-4 na dauke da misalinh akan.
+</p>
+    <p>
+// Insert Table //
+</p>
+    <p>
+
+Idan muka koma misalinmu dai na baya wato na Ali idan ya ga dutse ko 
+ruwa a hanyarsa to ya kauce masa, to anan kalmar da ya kamata ayi 
+amfani da shi domin zayyana wannan umarnin shine kalmar 'OR' (KO). 
+Saboda anan amsarmu E ne (TRUE) matukar Ali yaga dutse 
+ko ruwa a hanyarsa. Amsar umarninmu zai zama E ne (TRUE) matukar sai 
+idan daya daga ka'idar da muka bayana ko ka'idojin biyun dukkanninsu suka 
+zama E (TRUE). Domin kuwa hakan shi muke bukata domin samun 
+amsarmu ta karshe wadda da shine manhaja ke aiwatarda wani umarni ko 
+aiki.
+</p>
+    <p>
+Misalina 1: 
+</p>
+    <p>
+Ga misalin yadda za'a tsara umarnin da kuma ka'idojin a saukake 
+</p>
+    <p>
+Asukake:
+</p>
+    <p>
+Idan (Ali ya ga dutse KO Ali yaga ruwa)
+To ya kauce musu.
+Shikenan.
+</p>
+    <p>
+Misalina 2:
+</p>
+    <p>
+Za'a iya zayyana umarni masu matukar tsauri a wajen tsara umarnin.
+</p>
+    <p>
+Asaukake:
+</p>
+    <p>
+Idan (ana ruwan sama KO iska SANNAN koma taga a bude yake)
+rufe tagar.
+Shikenan.
+</p>
+    <p>
+
+Fa'ida.
+</p>
+    <p>
+Kada a manta, ma'anar wadann a nahausance sune kamar haka:
+</p>
+    <p>
+AND shine SANNAN.
+</p>
+    <p>
+OR shine KO.
+</p>
+    <p>
+NOT shine MUSANYA. 
+</p>
+    <p>
+
+IF ELSE (Tsarin auna zabi sama da guda).
+</p>
+    <p>
+A cen baya mun danyi bayanai game da tsarin da ake kira 'decision
+structure' wato tsari  zaba da yake zabar umarni bisa ga ka'idar da aka 
+samar masa sannan zai aiwatar da umarnin ne muddin amsar ya zama E 
+ne (TRUE). To me zai faru muddin dukkan amsoshin ka'idojin ka suka zama 
+A'A ne (FALSE)? Anan sai muce babu wani umarni da zai aiwatar. Kamar dai a wancen misalin namu na Ali munce, idan Ali ya ga dutse ko ruwa to ya kauce masa to kuwa matukar bai ga dutse ko ruwa a hanyarsa ba zai ci gaba da tafiyarsane har zuwa gida. To matsalar 
+Ita ce me zai faru idan ya ga wani abu ba dutse ko ruwa ba? To fa shine sai 
+ayi amfani da tsarin IF ELSE (wato tsarin auna zabi sama da guda daya). 
+</p>
+    <p>
+Misali.
+</p>
+    <p>
+Musapha yana fadawa abokinsa Umar cewa ya saya masa wani kyauta a 
+bulaguron da yayi. Sai kuwa Mustapha ya ba wa Umar kyautar wadda 
+riguna ne guda biyu, daya nashi dayan kuma na dan uwan shi. Umar yana 
+da yan uwa guda biyu, kaninsa da kuma yayansa wato wan sa. Sai Umar ya 
+kaddara cewa idan daya daga rigunannan biyu yayi masa kadan ko yayi dai-
+dai da shi to zai ba wa kaninsa ne amma idan yayi masa yawa zai ba wa
+wansa ne.
+</p>
+    <p>
+To yanzu a wannan yanayin dolene sai an samu tsarin da zai auna 
+dukkannin ka'idojin nan biyu wato shin rigar tayi masa dai-dai ko ta masa 
+karamine ko kuma dai ta masa girma? Domin samun amsar hakan ga 
+misali kamar haka:
+</p>
+    <p>
+Asaukake:
+</p>
+    <p>
+Umar an basa kyautar riga.
+</p>
+    <p>
+Idan (rigar yayi masa girma)
+Ya ba wa yayansa.
+Idan kuwa ba haka ba.
+Ya ba wa kaninsa.
+Shikenan.
+</p>
+    <p>
+
+A wannan yanayin da ya gabata, koda rigar bata yi masa girma ba to 
+dolene ace tayi masa dai-dai ko tayi masa kadan. Saboda dolene sai ya 
+karanta daya daga wadannan ka'idoji da suka gabata domin bada amsa E 
+(TRUE) ko kuma A'A (FALSE).
+</p>
+    <p>
+Kenan, idan aka saka cewar rigar tayi masa girma to za a ba wa yayansa 
+idan ba haka ba kuwa za a ba wa kaninsa.
+</p>
+    <p>
+NESTING.
+</p>
+    <p>
+Kafin mu rufe wannan babi za mu bayyana wani muhimmin tsari mai suna 'NESTING' wato tsarine mai shigar da wani ka'ida da umarni cikin wani. 
+</p>
+    <p>
+'Nesting' yana nufin wani tsarine da yake bada damar sanya wasu kananan 
+ka'idoji tare da umarni cikin wasu ko wani umarnin.
+</p>
+    <p>
+A misalin mu da ya gabatana Ali, mun ga yadda aka sanya tsarii zaba 
+cikin tsari mai bi daki-daki (wato 'decision' cikin 'sequence'). To wannan 
+dabaran da akayi za a iya cewa anyi 'Nesting' din tsari zaba 
+cikin tsari mai bi daki-daki. Hakama za a iya sanya tsari zaba cikin wani
+tsarin zaban.
+</p>
+    <p>
+A wasu babika masu zuwa, zamu yi dubi akan wannan batu in Allah ya
+yarda.
+</p>
+  </introduction>
+</chapter>
