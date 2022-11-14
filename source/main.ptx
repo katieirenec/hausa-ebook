@@ -30,6 +30,8 @@
     <xi:include href="./ch_first.ptx" />
     <xi:include href="./ch_empty.ptx"/>
     <xi:include href="./ch_two.ptx"/>
+
+    <xi:include href="./ch_five.ptx"/>
     <!-- Of course you will want to add more chapters as you proceed-->
 
     <!-- This chapter contains a wide variety of elements to  -->
