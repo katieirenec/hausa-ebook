@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_two-five">
+  <title>Variables</title>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          <ul >
+              <li >Student will be able to create variables using naming conventions </li >
+            </ul > 
+      </cell>
+    </row>
+  </tabular>
+
+<p>
+    You might notice that every time we display the prompt we take the user’s input and store into the class# variable. What we are doing here is called an assignment. We are setting the value of the Variable to be something so that later on we can perform calculations with it later.
+</p>
+
+<p>
+    You are allowed to name your variables whatever you wish however, there are some restrictions depending on the programming language you are using and also some conventions that are widely adopted among programmers. The general restrictions are:
+</p>
+<p>
+   <ol >
+        <li >variables can not contain spaces </li >
+        <li>
+            They typically do not start with numbers
+        </li>
+        <li>
+            They typically can not be characters that are not numeric, alphabetical, or under_scores. 
+        </li>
+    </ol >  
+</p>
+<exercises>
+<exercise label="Multiple choice, good varaible names">
+  <statement>
+    <p>
+      Which of these are valid variable names?
+    </p>
+  </statement>
+  <choices>
+    <choice correct="yes">
+      <statement>
+        <p>
+          num
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          CYes, num is correct.
+        </p>
+      </feedback>
+    </choice>
+    <choice correct="yes">
+      <statement>
+        <p>
+          class_4
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Yes, class4 is correct.
+        </p>
+      </feedback>
+    </choice>
+    <choice>
+      <statement>
+        <p>
+          44t
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Remember that variables cannot start with numbers
+        </p>
+      </feedback>
+    </choice>
+    <choice>
+      <statement>
+        <p>
+          comp science
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Remember that varaibles cannot have spaces between them
+        </p>
+      </feedback>
+    </choice>
+  </choices>
+  <hint>
+    <p>
+      Variables cannot start with numbers and cannot have spaces between them.
+    </p>
+  </hint>
+</exercise>
+</exercises>
+
+
+
+
+
+
+<p>
+    Often programmers use camelCase. camelCase is the practice of writing phrases without spaces or punctuation, indicating the separation of words with a single capitalized letter, and the first word starting with either case. Another style is snake_case, which uses under_scores to represent spaces
+</p>
+  </section>

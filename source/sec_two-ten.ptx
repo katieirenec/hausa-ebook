@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_two-nine">
+  <title>Comments</title>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          <ul >
+              <li >I understand what is a sequence structure</li >
+            </ul > 
+      </cell>
+    </row>
+  </tabular>
+ 
+ <p>
+    Before we wrap up this chapter I would like to draw your attention to one thing. You might have noticed that the programs we have written thus far place each code statement in a specific order. For example, does line 5 always execute before lines 12, 14, and 16? Because we know that if we declare a variable we should not use it without initializing it, therefore we have to make sure that the initialization comes first. The answer to the previous question is yes. That is true because of sequence structure. A sequence structure is a structure in which all the statements execute in the order they appear. Therefore if a statement is on line 1 it will always execute before any other statement. Therefore we do not have to worry about the program we have thus far. It will always execute in the order we intend it to. Later in the book, we will introduce you to other programming structures that may not follow this structure. Here is a flowchart, a graphical depiction of the sequence in which the program is executed. 
+ </p>
+
+ <p>
+    Now that you have been introduced to some of the fundamentals of programming and you have completed your first program before moving on to the next chapter take a look at the practice problems for this chapter and try completing them. 
+ </p>
+
+</section>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_two-four">
+  <title>Data type</title>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          Student will be able to...
+          <ul >
+              <li >Identify the correct data type for a piece of data </li >
+            </ul > 
+      </cell>
+    </row>
+  </tabular>
+
+  <p>
+    However, once you get that information from the user you need to store it somewhere for later use. Where? This is where the need for variables comes to play. Variables can be thought of as data containers that store data values that can be changed from time to time. There are many types of variables that hold different types of data. The table below shows a list of some of the most common. 
+  </p>
+
+
+<table>
+  <tabular top="medium">
+    <row bottom="medium"  left="medium" >
+      <cell right="medium">
+        Integer
+      </cell>
+      <cell right="medium">
+        A whole number that is not a fraction. Such as 2,67, -89, or 56
+      </cell>
+    </row>
+    <row bottom="medium" left="medium">
+      <cell right="medium">
+        Real
+      </cell>
+      <cell right="medium">
+        A number that is a fraction. Such as -1.45, 5.55, 3.00
+      </cell>
+    </row>
+    <row bottom="medium" left="medium">
+      <cell right="medium">
+        String
+      </cell>
+      <cell right="medium">
+        A sequence of characters. Such as “Hello”, “What is your name”
+      </cell>
+    </row>
+    <row bottom="medium" left="medium">
+      <cell right="medium">
+        Boolean
+      </cell>
+      <cell right="medium">
+        A true or false value
+      </cell>
+    </row>
+  </tabular>
+</table>
+
+<exercises>
+<exercise label="matching-data-types">
+  <title>Matching Problem, Date Types</title>
+  <idx>matching data types</idx>
+  <statement>
+    <p>
+      Match each value to it's data type
+    </p>
+  </statement>
+  <feedback>
+    <p>
+      Try again!
+    </p>
+  </feedback>
+  <matches>
+  <match order="4">
+  <premise>Integer</premise>
+  <response>18</response>
+  </match>
+  <match order="3">
+  <premise>String</premise>
+  <response>"Computer Science"</response>
+  </match>
+  <match order="1">
+  <premise>Boolean</premise>
+  <response>True</response>
+  </match>
+  <match order="2">
+  <premise>Real</premise>
+  <response>4.3</response>
+  </match>
+  </matches>
+</exercise>
+</exercises>
+ 
+
+  <tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          Student will be able to...
+          <ul >
+              <li >Declare and assign variables </li >
+            </ul > 
+      </cell>
+    </row>
+  </tabular>
+
+  <p>
+    Well now we know where to store our data but how do we implement that in our program?
+Most languages will require you to declare a variable before you use it. The declaration may look like this
+  </p>
+
+  <p>
+    <c>Data type </c><c>variable name → Integer amount</c>
+  </p>
+
+<p>
+    The example above shows a variable declaration in which the variable data type is indicated in this case Integer and the variable name is indicated in this case “amount”. This allows your program to know that the variable “amount” will store data that is an integer. Storing another data type in “amount” like a String will cause an error.  
+</p>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Did you know: not all languages require variable declaration before use. For example Python, does not require variable declaration
+      </cell>
+    </row>
+  </tabular>
+
+  <p>
+    Now let’s go back to our example. Let’s prompt the user to provide the number of students for the 3 classes and store them in variables 
+  </p>
+
+<exercises>
+<exercise label="Integer">
+  <statement>
+    <p>
+       <c>Why did we use integer?</c>
+      </p> <p>
+        <var width="60" /> 
+    </p>
+  </statement>
+    <setup>
+    <var>
+    <condition string=".*">
+    <feedback>
+      <p>
+        Let's continue
+      </p>
+    </feedback>
+    </condition>
+     <!-- <condition number="1" tolerance="100000"> -->
+     <condition>    
+    <feedback>
+      <p>
+        Try again
+      </p>
+    </feedback>
+    </condition>
+    </var>
+  </setup>
+</exercise>
+</exercises>
+
+<c>Integer class1
+Integer class2
+Integer class3
+
+Display “Enter the number of students in class 1”
+class1 = Input
+Display “Enter the number of students in class 2”
+class2 = Input
+Display “Enter the number of students in class 3”
+class3 = Input (the single equal sign indicates assignment)
+</c>
+
+<activity xml:id="coding-exercise-two-three">
+  <title>Activity Coding Exercise</title>
+  <statement>
+    <p>
+      Save and Run the below program.
+    </p>
+  </statement>
+        <program interactive="activecode" language="python">
+            <input>
+            print("Enter the number of students in class 1")
+            class1 = input()
+            print("Enter the number of students in class 2")
+            class2 = input()
+            print("Enter the number of students in class 3")
+            class3 = input()
+            print(class1)
+            print(class2)
+            print(class3)
+            </input>
+        </program>
+  <answer>
+    That is data assignment
+  </answer>
+</activity>
+
+   </section>

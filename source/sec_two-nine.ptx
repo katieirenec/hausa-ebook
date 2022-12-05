@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_two-nine">
+  <title>Comments</title>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          <ul >
+              <li >Student will be able to use comments without changing the program</li >
+            </ul > 
+      </cell>
+    </row>
+  </tabular>
+
+<p>
+    Constants are really good for cleaning up code so that it is readable and understandable to other programmers. Another way for making your programs understandable to others is by documenting and commenting on your code. Comments are descriptions of the functionality of a piece of code. There are two types of comments. Line comments and block comments. If a programmer would like to leave a comment they can do so by using the commenting symbol. It is different for each programming language, so in order to use it, reference the user guide for the programming language you are learning. In this book, the symbol for line comments in pseudocode will be “//”.
+</p>
+<p>
+    Line comments only last for a line. They are usually used to make a simple clarification. For example
+</p>
+
+<p>
+    <c>// This Constant variable holds the total number of classrooms
+Const Integer TOTAL_CLASSROOMS
+</c>
+</p>
+
+<p>
+    As you can see the comment is only one line long and it is short and simple. Block comments on the other hand occupy multiple lines and are usually used to expand or explain in a bit more detail the functionality of a piece of code. The symbol for block commenting varies from language to language but in this book the symbol we will use is “/*....*/” For example let’s take a look at a refined revision of the earlier program. 
+</p>
+
+<p>
+    <term>Program</term>
+</p>
+<p>
+    <c>/*This program accepts the number of students in a class from the user and uses that input to calculate the sum and average and then displays it to the user.*/
+
+Integer Class1, Class2, Class3  // stores class size
+Integer average   // stores the average
+Integer sum         // stores the sum
+Const Integer TOTAL_CLASSROOMS // stores number of classrooms
+// Prompt the user 
+Display “Enter the number of students in class 1”
+Class1 = Input
+Display “Enter the number of students in class 2”
+Class2 = Input
+Display “Enter the number of students in class 3”
+Class3 = Input
+Sum = Class1 + Class2 + Class3
+Average = sum/TOTOAL_CLASSROOMS
+Display “The sum is “, sum, “ and the average is ”, average
+</c>
+</p>
+
+<p>
+    <term>Output</term>
+</p>
+
+<tabular top="medium">
+    <row left="medium">
+      <cell  right="medium">
+        Enter the number of students in class 1
+      </cell>
+    </row>
+    <row left="medium">
+      <cell  right="medium">
+        → input: 15
+      </cell>
+    </row>
+
+    <row left="medium">
+      <cell  right="medium">
+        Enter the number of students in class 2
+      </cell>
+    </row>
+    <row left="medium">
+      <cell  right="medium">
+        → input: 20
+      </cell>
+    </row>
+
+    <row left="medium">
+      <cell  right="medium">
+        Enter the number of students in class 3
+      </cell>
+    </row>
+    <row left="medium">
+      <cell  right="medium">
+        → input: 19
+      </cell>
+    </row>
+
+    <row bottom="medium" left="medium">
+      <cell  right="medium">
+        The sum is 54 and the average is 18
+      </cell>
+    </row>
+  </tabular>
+
+<p>
+    In C++, to write a line of comment we use //. And for a block comment we use /* code */“
+</p>
+
+<activity xml:id="coding-exercise-two-six">
+  <title>Activity Coding Exercise</title>
+  <statement>
+    <p>
+      Save and Run the below program.
+    </p>
+  </statement>
+        <program interactive="activecode" language="python">
+            <input>
+            '''
+            This program accepts the number of students in a class from the user and uses that input to calculate the sum and average and then displays it to the user.
+            '''
+
+            #Prompt the user 
+            print("Enter the number of students in class 1")
+            class1 = int(input())
+            print("Enter the number of students in class 2")
+            class2 = int(input())
+            print("Enter the number of students in class 3")
+            class3 = int(input())
+
+            sum = class1 + class2 + class3
+            average = sum/3
+            print("The sum is: ", sum, "and the average is: ", average)
+            </input>
+        </program>
+  <answer>
+    To find sum and average of three numbers
+  </answer>
+</activity>
+
+
+<p>
+    One thing to remember is that a program ignores comments. Meaning while it processes everything it encounters such as summing up the classroom sizes when it sees the line comment or the block comment the program ignores it and does not process the comment. It is as if there was not anything there at all. Commenting is meant for humans and not the computer. 
+</p>
+</section>

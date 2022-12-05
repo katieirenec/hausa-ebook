@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_two-seven">
+  <title>Basic Program</title>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          <ul >
+              <li >student will be able to construct a basic program using variables and displays </li >
+            </ul > 
+      </cell>
+    </row>
+  </tabular>
+
+    <p>
+            <term>Program</term>
+        </p>
+    <p>
+<c>Integer Class1, Class2, Class3
+Integer average 
+Integer sum
+
+Display “Enter the number of students in class 1”
+Class1 = Input
+Display “Enter the number of students in class 2”
+Class2 = Input
+Display “Enter the number of students in class 3”
+Class3 = Input
+Sum = Class1 + Class2 + Class3
+Average = sum/3
+Display “The sum is “, sum, “ and the average is ”, average
+</c>
+       </p>
+        
+    <p>
+        <term>Output</term>
+    </p>
+<tabular top="medium">
+    <row left="medium">
+      <cell  right="medium">
+         Enter the number of students in class 1
+      </cell>
+    </row>
+    <row left="medium">
+      <cell  right="medium">
+        → input: 15
+      </cell>
+    </row>
+
+    <row left="medium">
+      <cell  right="medium">
+         Enter the number of students in class 2
+      </cell>
+    </row>
+    <row left="medium">
+      <cell  right="medium">
+        → input: 20
+      </cell>
+    </row>
+
+    <row left="medium">
+      <cell  right="medium">
+         Enter the number of students in class 3
+      </cell>
+    </row>
+    <row left="medium">
+      <cell  right="medium">
+        → input: 19
+      </cell>
+    </row>
+
+    <row left="medium">
+      <cell  bottom="medium" right="medium">
+         The sum is 54 and the average is 18
+      </cell>
+    </row>
+  </tabular>
+
+
+<activity xml:id="coding-exercise-two-six">
+  <title>Activity Coding Exercise</title>
+  <statement>
+    <p>
+      Save and Run the below program.
+    </p>
+  </statement>
+        <program interactive="activecode" language="python">
+            <input>
+            print("Enter the number of students in class 1")
+            class1 = int(input())
+            print("Enter the number of students in class 2")
+            class2 = int(input())
+            print("Enter the number of students in class 3")
+            class3 = int(input())
+
+            sum = class1 + class2 + class3
+            average = sum/3
+            print("The sum is: ", sum, "and the average is: ", average)
+            </input>
+        </program>
+  <answer>
+    To find sum and average of three numbers
+  </answer>
+</activity>
+
+       </section>

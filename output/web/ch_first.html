@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Chapter 6</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="My Great Book">
+<meta property="book:author" content="Me">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/components/prism-core.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/autoloader/prism-autoloader.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '5.0.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.3.24/runtime.b9c4862031d919a3.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.3.24/637.d54be67956c5c660.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.3.24/runestone.d6e48037c4e99c27.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.3.24/637.0fa6cababf056764.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.3.24/runestone.93e720e6c6581fb5.css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">My Great Book:</span> <span class="subtitle">An example to be modified</span></a></h1>
+<p class="byline">Me</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch_four.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="my-great-book.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec_first-intro.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch_four.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="my-great-book.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec_first-intro.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="dedication-1.html" data-scroll="dedication-1" class="internal">Dedication</a></li>
+<li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1" class="internal">Acknowledgements</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+<li><a href="preface-2.html" data-scroll="preface-2" class="internal">Not just that..</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch_first.html" data-scroll="ch_first" class="internal"><span class="codenumber">1</span> <span class="title">Babi na farko</span></a><ul>
+<li><a href="sec_first-intro.html" data-scroll="sec_first-intro" class="internal">Introduction to First Chapter</a></li>
+<li><a href="sec_first-examples.html" data-scroll="sec_first-examples" class="internal">Examples</a></li>
+<li><a href="ex_first.html" data-scroll="ex_first" class="internal">My Exercises</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch_twotemplate.html" data-scroll="ch_twotemplate" class="internal"><span class="codenumber">2</span> <span class="title">BABI NA</span></a><ul>
+<li><a href="exercises-checkIn.html" data-scroll="exercises-checkIn" class="internal">Exercises</a></li>
+<li><a href="sec_two-two.html" data-scroll="sec_two-two" class="internal">Data</a></li>
+<li><a href="sec_two-three.html" data-scroll="sec_two-three" class="internal">Data and Variables</a></li>
+<li><a href="sec_two-four.html" data-scroll="sec_two-four" class="internal">Data type</a></li>
+<li><a href="sec_two-five.html" data-scroll="sec_two-five" class="internal">Variables</a></li>
+<li><a href="sec_two-six.html" data-scroll="sec_two-six" class="internal">More About Variables!</a></li>
+<li><a href="sec_two-seven.html" data-scroll="sec_two-seven" class="internal">Basic Program</a></li>
+<li><a href="sec_two-eight.html" data-scroll="sec_two-eight" class="internal">Constant Variables</a></li>
+<li><a href="sec_two-nine.html" data-scroll="sec_two-nine" class="internal">Comments</a></li>
+</ul>
+</li>
+<li class="link"><a href="ch_four.html" data-scroll="ch_four" class="internal"><span class="codenumber">3</span> <span class="title">BABI NA HUDU</span></a></li>
+<li class="link active">
+<a href="ch_first.html" data-scroll="ch_first" class="internal"><span class="codenumber">4</span> <span class="title">Chapter 6</span></a><ul>
+<li><a href="sec_first-intro.html" data-scroll="sec_first-intro" class="internal">Introduction to First Chapter</a></li>
+<li><a href="sec_first-examples.html" data-scroll="sec_first-examples" class="internal">Examples</a></li>
+<li><a href="ex_first.html" data-scroll="ex_first" class="internal">My Exercises</a></li>
+</ul>
+</li>
+<li class="link"><a href="ch_five.html" data-scroll="ch_five" class="internal"><span class="codenumber">5</span> <span class="title">Tsarin kewaye ko maimaita kansa (looping structure)</span></a></li>
+<li class="link">
+<a href="ch_features.html" data-scroll="ch_features" class="internal"><span class="codenumber">6</span> <span class="title">Examples of PreTeXt features</span></a><ul><li><a href="sec_features-blocks.html" data-scroll="sec_features-blocks" class="internal">Environments and Blocks</a></li></ul>
+</li>
+<li class="link backmatter"><a href="meta_backmatter.html" data-scroll="meta_backmatter" class="internal"><span class="title">Backmatter</span></a></li>
+<li class="link"><a href="solutions-1.html" data-scroll="solutions-1" class="internal"><span class="codenumber">A</span> <span class="title">Selected Hints</span></a></li>
+<li class="link"><a href="solutions-2.html" data-scroll="solutions-2" class="internal"><span class="codenumber">B</span> <span class="title">Selected Solutions</span></a></li>
+<li class="link"><a href="appendix-1.html" data-scroll="appendix-1" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></li>
+<li class="link"><a href="index-1.html" data-scroll="index-1" class="internal"><span class="title">Index</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2" class="internal"><span class="title">Colophon</span></a></li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="chapter" id="ch_first"><h2 class="heading">
+<span class="type">Chapter</span> <span class="codenumber">4</span> <span class="title">Chapter 6</span>
+</h2>
+<section class="introduction" id="introduction-5"><p id="p-199">Duk da cewar a baya mun yi dubi game da abubuwa da dama da suka shafi harkar kirkirar manhaja. To amma fa, akwai wani jigon abu guda da bamu taboshi ba a wannan banagaren, wannan abin kuwa shi ake kira da “FUNCTION” wato “DABARU NA FUNCTIONS”. A saboda haka, da yardar Allah a wannan babin, zamu yi dubi ne gaba daya akan wannan tsarin na “Dabarun functions” wato wanda ake kiransa da “FUNCTIONS” a fannin kirkirar manahaja.</p>
+<p id="p-200">Dabarun functions: wasu tsare – tsarene na dabaru da suke aiwatar da wasu ayyuka na musamman. Dabarar function ana amfani da shine a wajen sanyawa makirkirin manhaja saukin aiki domin yana taimakawa a wajen takaice kalmomin umarni (codes) na kirkirar manahaja, rage yawan maimaita kalmomin umarnin a manhaja guda, dama bada damar amfani da ingantattu da kuma saukakan hanyoyi a wajen kirkirar manhaja, da kuma kawo saukin bibiyar gyara tare da gano inda gyarar take. Abinda wannan babin zai maida hankali akai sun hada da yadda za’a yi amfani da wannan tsarin na dabarun functions, da kuma yadda ake kirkirar tsarin a yayin samar da manhaja, dama yadda tsarin aikinsa yake. A karshen wannan babin, zamu yi dubine zuwa ga wasu misalai da kuma wasu matsaloli da suka shafi wannan tsarin na dabarun functions.</p>
+<p id="p-201">Domin farawa bari muyi dubi zuwa ga ma’anar wannan tsari na dabarun functions. Dabarar function wani tsari ne na umarni da aka tsaro shi domin ya aiwatar da wani aiki na musamman. Misali, mu dauka cewar abokinka ya fada maka cewar na’urar lissafinsa (calculator) ya fashe kuma ya lalace sannan sakon da ya bayar domin a kawo masa sabo ba zai samu ba sai nan da sati na gaba, to kuma dama kai da abokin naka kuna amfani ne da na’urar lissafi da yake aiki iri guda, saboda ba zai yiwu kaje kasuwa ka sayo kowane irin na’urar lissafi ba sai irin wancen ga kuma abokin naka yace maka yana son kammala wannan aikin nashi ne a kankanin lokaci. To kuma kana dan shakkar bashi naka na’urar aro saboda kaima kana aiki da shi kuma idan kuka ce zaku yi amfani da naka dukkanku to hakan zai janyo rashin saurin aikin naku. Saboda haka, sai kayi wani dan tunani na cewar bari ka kirkira masa manhajar da zai dinga lissafi kamar na wancen na’urar lissafin nashi da ya lalace to amma kuma sai ka tuna da cewar hakan zai baka wahala duba da karancin saninka a harkar kirkira (Programming) saboda aikine da zai zama mai dan yawa da kuma yake bukatar sanya dabaru iri-iri. Misali, kamarsu gurbin da zai rinka karbar lambobi</p>
+<p id="p-202">2 da kuma gurbin da zai rinka yin lissafi irinsu; hadawa, debewa, ninkawa, dama gurbin da zai rinka aiwatar da wasu nau’ikan lissafe-lissafen na daban ko dai gurbin da ake son ya aiwatar da guda daga wadancen lissafin kawai wanda wancen fasasshen na’urar lissafin nashi ke iya aiwatarwa. Saboda haka, sai kawai ka kudiri niyyar kirkirar wannan manhajar lissafin. Na san cewar a take zaka tuna da cewar wannan tsarin manahajar yana bukatar maimata wasu kalmomi na umarni (codes) lokaci bayan lokaci a wajen rubuta wannan manhajar. Misali. Idan aka so a karbi lambobi biyu sannan a hadasu ko kuma aka so ninka su a wani gefen, ko dai ake son a gabatar da wani nau’in lissafin na daban da su wadannan lambobin ba tare da an cenzasu ba. Saboda haka; domin yin wannan aikin, a shawarce kayi amfani da tsarin “Dabarar Function”. Domin wannan tsarin shine kawai zai baka damar yin hakan cikin sauki da kuma kwarewa, domin kuwa kowacce dabarar lissafin da ka saka shine yake rike da wannan nashi kalar dabarar lissafin, kawai idan ana so ya aiwatar da nashi lissafin to kawai sai a kirashi domin yin hakan. A takaice dai, shi dababar function yana bada dama ne ayi amfani da bayani guda sannan a fadi yadda ake son ayi ta sarrrafa wannan bayani ta hanyoyi daban-daban ba tare da an cenza wadancen bayanan da wasu ba. Misali. Idan aka shigo da lambobi biyu sai kuma ake son a hada wadannan lambobin sannan a wani bangaren kuma a ninka wadannan lambobin sannan a wani bangaren kuma a debe wadannan lambobi kuma ba tare da an maimaita rubuta kowacce umarni ba ma’ana ana son a rubuta dukkansu umarnin a waje guda, to babu wani tsari mai sauki da zai baka damar yin hakan sai dabarar function. Misali. Kaine kake don idan mutum ya shigo da lamba biyu, kana son a hadasu (Add) ko a rabasu (Subtract) ko dai a ninkasu (Multiply) kuma baka son rubuta umarninsu a waje daban-daban sai a waje guda to kawai sai kayi amfani da dabarar function a wajen yin wannan.</p>
+<p id="p-203">A yanzu kam na tabbatar cewar mun dan san wani abu a game da dabarar function. Saboda haka; yanzu bari mu yi magana akan yadda tsarin wannan dabarar na function yake da kuma yadda ake sanya su a wajen rubuta umarni. A baya munce idan ana son dabarar function yayi aikinsa to kuwa ya zama wajibi idan aka gama zayyana yadda ake son dabarar zata kasance to kuma sai an kirashi domin aiwatar da aikinda aka saka mishi, to amma yaya zamu yi hakan? Da farko dai dolene mu fara da zayyana yadda muke son dabarar tamu zata kasance ko muce zaka zayyana wani irin dabarane kake son wannan tsarin zai aiwatar maka.</p>
+<p id="p-204">3 Shi dabarar function yana da bangaren da ake kira da bangaren sama ko mu kirasu da suna ‘yan sama’ da kuma bangaren ‘yan tsakiya’. Shima bangaren yan saman ya kasu har kashi uku. Sune; gurbin zayyana nau’in yan aike (return type), da gurbin da zai kunshi sunan dabarar function din (function name), da kuma gurbin da zasu zauna jiran karbar sako daga sashen bangaren ‘yan aike’ da suke bangaren ‘yan tsakiya’ (Parameters). Sannan shima bangaren yan tsakiya na dababar function shima ya kasu har kashi biyu; sune: bangaren inda aikin dabarar function din yake da kuma banagaren da ake kira da yan aike. Gurbin zayyana nau’in yan aike (Return type): wannan bangare ne da yake nuna irin nau’in dan aiken da za’a aiko daga sashen yan tsakiya na dabarar function. Wato zai nuna mana cewar duk dan aiken da za a aiko daga sashen yan tsakiya na dabarar function zai zama lambace (Integers) ko harrufane (characters) ko dai lambobi masu goyone (floating point numbers) da sauransu. Banagren sunan dabarar function ne zai amsa wannan alhakin. Gurbin zayyana sunan dabarar function (function name): Abu na gaba da yake bin gurbin da yake nuna nau’in dan aiken function shine wannan gurbin na zayyana sunan dababar function. Wannan gurbine da ake sanya sunan da shine za a kira dan aiken da yake rike da sakon da ake son ya isarwa wannan guirbin shi. Gurbin da zasu zauna jiran zuwan sako daga sashen bangaren ‘yan aike’ da suke bangaren ‘yan tsakiya’ (Parameters): Bayan gurbin da ya gabata to kuwa sai wannan gurbin. Wannan gurbine da zai kunshi wasu jerin rubutu da suke zaman jiran zuwan sako daga sashen yan tsakiya na function. Kana da zabi domin sanya wannan bangare ma’ana ba dole bane sai an sanya wannan bangaren idan ka so. Sannan zaka iya sanya wadannan ‘parameters’ din da dan dama idan kana so. Su wadannan ‘parameters’ din wasu abubuwane da ake mikasu ga sashen inda aka tsara dabarar function wato inda aka zayyana yadda za’a gabatar da dabarar da ka shirya domin komfiwta ya aiwatar maka. Saboda haka; duk abinda aka saka a wannan bangaren to kuwa a cen sashen dabarar da ka shirya da shine zai yi amfani da su a wajen shirya dabarar. To ya kamata ka san cewar ana mika wadannan ‘parameters’ dinne ta hanyoyi biyu; ta hanyar amfani da lamba kai tsaye (pass by value) ko kuma ta hanyar amfani da wani harafi da zai wakilce shi (pass by reference).</p>
+<p id="p-205">4 . Mika ‘parameters’ ta hanyar amfani da lamba kai tsaye maimakon abinda zai wakilceshi (Pass by value): A wannan tsarin, ana tura kofin lambar da yake wannan sashen ne zuwa cen sashen tsara dabara domin dabarar yayi amfani da wannan sakon da aka turo masa wato lambar. Saboda haka, ya kamata ka san cewar duk chanjin da za’a yi a cen sashen zayyana dabaru ba zai shafi wannan gurbin na mika ‘parameters’ ba domin lambace ba wani abune ya wakilceshi ba. Dalilin shine, ai dama kofin lambar aka tura ba wakilinsa ba kuma kowacce lamba dake wancen sashen da kuma wannan sasehen suna zaman kansu ne, saboda haka dan waninsu ya cenza ba zai shafi dayan ba. . Mika ‘parameters’ ta hanyar amfani da wakilci (Pass by reference) : Wannan tsarin kuwa ana wakiltar asalin bayanin ne da yake nan gurbin ko kuma muce ana zayyanawa dabarar adreshin inda wannan bayanin yake ne saboda haka, ana son idan dabarar ya fara aiki, matukar yana neman wani bayani akan wani abu to ya je adreshin da aka kwatanta masa na wannan bayanin saboda duk wani chenji da aka yiwa asalin bayanin to shima wakilin zai samu wannan chenjin domin ai dama wakiltarsa aka yi ba kofinsa aka tura ba. Sai abinda yake bin gurbin da ya wuce shine gurbin asalin inda za’a zayyana yadda dabarar naka zai kasance (function body): Wannan gurbi kuwa, gurbine da zai rinka aiwatar da aikin da aka sanya masa yayi. Misali, kamar su hadawa, debewa, rabawa, ninkawa da kuma samar da gurbin da za’a iya shigo da wani bayani domin sanya shi cikin lissafi. Wannan gurbin shine yake nuna irin dabarar da aka tsaro a wajen aikin manhajar. Gurbin da yake zama bayan shi kuwa shine gurbin komar da aikin dabarar zuwa gurbin da ya kirashi dazu sannan ya sake mika masa da bayanan da suke cen domin sake aiwatar da dabarar da aka zayyana masa a karo na gaba. // Misali a jadawalin flochat. // Yana nuna gurbin da ake kira da kuma gurbin da shine yake kiran. Ga misalinsa kamar haka: int hadawa(int A, int B) // Wannan gurbin da ke sama, gurbine dake zayyana irin nau’in bayanin da za’a yi amfani da shi a yayin tsara dabarar function. Idan ka duba zaka ga cewar sunan dabarar shine ‘Hadawa’ kuma nau’in bayanin ‘A’ shine int wato nau’ine dake nuna cewar nau’in lambobi ce (integer) sannan na ‘B’ ma lambace.</p>
+<p id="p-206">5  // (Wannan kuma shine gurbin da yake karbar sako da aka turo daga cen gurbin da yake kasan layikan umarni na mahajar). // Wannan gurbin da yake sama shine gurbin da ake tsara dabarun da ake so komfiwta zai yi. A wannan sashen dake sama idan ka duba zaka cewar ana sone a hada lambar dake a madadin harafin A wato (30) da kuma wanda ke madadin B wato (20) da za a turosu daga cen gurbin dake kasan wannan gurbin, sannan ya sanya sakamakon abinda ya samu a kalmar ‘Ansa’.  // (Wannan kuma shine gurbin da zai tura sakon lambobi biyun wato 30 da 20 zuwa cen gurbin dake samansa). //wannan shine bangaren da zai kira gurbin dabara sannan ya aiwatar da irin dabarar da aka zayyano a cen sashen zayyana dabara. Wato gurbin da ka zayyana cewar ‘Ansa’ sakamakonsa shine ya hada A da B sannan ya sanya sakamakon ga ‘Ansa’. Kuma wannan banagaren shine zai tura lambar 30 ya wakilci A shi kuwa 20 ya wakilci B zuwa ga gurbin zayyana nau’in dabara. Sannan sai ya bayyana sakamakon dabarar da ake so ayi dake cen sashen tsara dabaru. Saboda haka amsar lissafinka zai zama kamar haka:</p>
+<p id="p-207">Ansa = 50</p>
+<p id="p-208">6 Saboda haka yanzu dai da fatan zaka iya kirkirar naka dabarar function din domin aiwatar da wani aikin da kake son yi. To idan ka tsara dabrara yaya zaka yi ka kira dabarar ne? wannan kuwa ana yine ta hanyar yin nuni ga sunan dabarar da kuma ‘parameters’ wato kamar masu wakiltar bayanai da mukayi bayani dazu. Misali. A gurbi na farko ( 1 ) : // Anan za’a zayyana suna da kuma nau’in bayani a matsayin lambobi, Hadawa(int A, int B) A gurbi na biyu ( 2 ) : Sai a kasan wannan gurbin kuma ka tsara irin dabarar da kake so a aiwatar maka da kuma sunan da zai rike sakamakon dabarar sannan ya maido maka da sakamakon dabarar.  A gurbi na uku ( 3 ) : / A gurbi na uku kuwa anan ne zaka tsara yadda za’a mika lambobi ko kuma bayani zuwa gurbin farko. Sannan wannan gurbin kuma shine zai bayyana mana sakamakon dabarar da aka tsara a gurbin da yake sama. </p>
+<p id="p-209">// A takaice dai, yadda dabarar function yake aiki a wajen kiran dabara da kuma yadda yake amsa kiran shine kamar haka:</p>
+<p id="p-210">7 A duk lokacin da dabarar function ya kewayo a aikinsa, to kuwa wancen wajen da yake rike da bayanin da aka miko masa daga gurbi na uku shine kuma zai sake dawowa ya shiga cikin tsarin dabarar da aka tsara. Misali. idan tun farko an shigo da lambar 2 da 4 ne a wajen lissafasu kuma watakila a dabarar da aka tsara an sanya cewa zai hada wadannan lambobi sannan zai ninka wadannan lambobi ko dai wani abu kamar haka, to kuwa a duk sanda gurbin mika ‘parameters’ ya tashi mikowa to kuwa wadannan lambobin zai yi ta mikowa ana maimaita wadannan lissafin da su a wajaje daban-daban. Saboda haka; ya kamata kasan cewar za’a iya bada wakilcin wasu lambobin ga wasu harrufan domin a duk sanda aka so amfani da wadannan lambobin, to kuwa sai a kira wadannan harruffan su kuwa sai su miko lambobin da aka wakilta musu ga gurbin zayyana dabaru da aka tsara, shi kuma sai yayi amfani da wadannan lambobin domin aiwatar da dabarun da aka sanya masa yayi. To sai dai fa ya kamata ka san cewar sharadin da zai bada damar mika wadannan harrufan da suke wakiltar wasu lambobin to kuwa dolene sai wadannan harrufan nau’in bayaninsu (data type) dolene sai ya dace da nau’in tsarin dabarar da aka tsara a gurbin tsara dabaru. Yanzu kam, na san ka dan fahimci yadda ake tsara dabarun function a yayin kirkirar manhaja, sannan a gefe guda kuwa yana da matukar muhimmanci ka san cewar akwai wani hanyar tsara dabarar function din kuma wanda baya bukatar ka zayyana irin dabarun da zai maka kawai dai an riga da an sanya masa yadda zai aiwatar da duk wata dabara da taimakon sanya sunan nau’in dabarar a farkon layikan umarni na manhajar. Wadannan abubuwan kuwa sune ake kira da “Library functions”.</p>
+<p id="p-211">“LIBRARY FUNCTIONS” Ko mu kirasu da “AJIYAYYUN DABARU”: Wasu tsare- tsaren dabarun functions ne da aka kirkiresu sannan aka sanyasu cikin tsarin</p>
+<p id="p-212">harshen kirkira (Programming language) domin ya bada damar amfani da su a wajen aiwatar da wasu ayyukan na musamman domin ya samar maka da sauki a yayin kirkirar manhajar ka. Kamar yadda nace kowane harshen kirkira yana zuwa ne da irin nasa tsarin na ajiyayyun dabarun function domin yayin da ka sauke wani harshen kirkira sannan ka bashi izinin fara aiki a cikin na’ura (install) to kuwa yana zuwane tare da wadannan ajiyayyun dabarun functions a cikinsa. Saboda haka; su ajiyayyun dabarun functions suna zuwane tare da kowane irin harshen kirkira domin su amfaninsu shine suna dauke ne da wasu kalmomin umarni iri-iri dama wasu dabarun na musamman masu kama da dabarun na functions domin amfani da su a cikin manhaja.</p>
+<p id="p-213">8 Bayanin kowacce dabarar da ke cikin irin wadannan ajiyayyun dabarun gaskiya ya wuce a yi shi a wannan dan littafin domin yawansa to amma dai ya kamata ka san cewar a koda yaushe kana iya amfani da kowacce dabarar idan kaga dama. Saboda haka dai; shi “library function” kamar wani tsari ne da yake tattare da wasu kalmomin umarni ko na dabaru domin amfani da su a wajen samar da manhaja kuma kana iya amfani da wasunsu tamkar yadda ake amfani da dabarar function. A karshe dai, dangane da wannan batun, su Ajiyayyun kalmomi ko dabaru wato “Library functions” wasu dabaru ne da aka kirkiresu sannan aka ajiyesu a cikin duk wata harshen kirkira, kuma su basa bukatar a tsara ko a zayyana musu yadda zasu aiwatar da wani dabara domin suna da nasu irin dabarun da aka riga aka sanya musu zasu rinka aiwatarwa kawai idan kana son amfani da su sai ka sanya sunan ajiyayyen dabarar (haeder file) da kake son ya aiwatar a farko sannan daga baya sai ka yi amfani da kalmomin da suke kunshe a cikin wannan sunan dabarar. Ga wasu kadan daga misalan wadannan ajiyayyun dabarun ko ajiyayyun kalmomin kirkira da suke zuwa tare da harsunan kirkira: printf(), scanf(), getch(), pow(), is_open(), close(), da sauransu. Zaka yi mamaki idan aka ce maka za’a iya sanya wani dabara ya kira kansa da kansa. Shin hakan zai yiwu kuwa? Amsar wannan shine E zai yiwu. Ai na san ma kaga kadan daga misalin hakan a misalan da ya gabata a wajen tsara dabarun function inda dabarar function ya kan tsallaka zuwa wani sashen layikan umarnin da ya faro daga fari sannan ya sake kewayowa, to amma me kake gani idan aka ce dabarar kansa ake son ya kira? to kuwa akwai wannan tsarin kuma shi ake kira da “RECURSION” sai dai fa yana da kyau ka kula sosai a wajen tsara wannan dabarar domin idan baka kula ba zaka yi mummunan dabara inda dabarar zai yi ta maimaita kansa sau babu adadi (infinite recursive function). “RECURSIVE” ko mu kirashi da “Dabara mai maimaita kansa”: Wani tsarin dabara ne da yake iya kiran kansa da kansa. To amma idan ka dubi wannan dabarar zaka iya cewar anya kuwa dabarar ba zai yi ta maimaita kansa ba babu tsayawa domin duk sanda ya kai karshen dabarar zai sake kewayowane hakan zai yi ta yi. Saboda haka yaya zamu magance wannan matsalar maimaitawa babu tsayawa? To kuwa akwai mafita a wannan matsala kuma mafitar ita ce ake kira da “BASE CASE”. Shi tsarin dabara mai maimaita kansa yana da bangarori guda biyu; bangaren da zai yi ta maimaita kansa da kuma bangaren da za’a masa madakata ko matsaya wato “Base case”.</p>
+<p id="p-214">9 . “Base Case” ko mu kirashi da “Madakata”: Wannan wani gurbi ne dake dakatar da dabara da aka tsara domin yayi ta kiran kansa da kansa. Shi wannan gurbi tamkar ma’aunine dake tabbatar da dabara ya dakata daga kewayowa matukar ya iso wani ka’ida da aka sanya masa domin ya dakata. Domin a duk sanda dabara mai maimaita kansa ya kewayo to kuwa wannan gurbin shine zai auna ya ga cewar shin dabarar zai sake kewayowane ko kuwa a’a. sannan bangare na biyu kuma shine : . Gurbin maimaita kansa (Recursive part): Wannan kuwa shine gurbin da zai yi ta kiran kansa da kansa. Ga misalai kamar haka: // Jadawalin flochat // Misalinsa a kwatancen zane. // kwatancensa a rubutu. Saboda haka dai; yanzu na tabbatar ka san wani abu a game da dabarar function. Sai ka amsa wadannan domin kara samun fahimta da kuma auna fahimtarka.</p></section><nav class="summary-links"><ul>
+<li><a href="sec_first-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to First Chapter</span></a></li>
+<li><a href="sec_first-examples.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Examples</span></a></li>
+<li><a href="ex_first.html" class="internal"><span class="codenumber">4.3</span> <span class="title">My Exercises</span></a></li>
+</ul></nav></section></div></main>
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_two-six">
+  <title>More About Variables!</title>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          <ul >
+              <li >student will be able to manipulate variables to construct other variables </li >
+              <li>
+                student will be able to understand the difference between declaration and initialization
+              </li>
+              <li>
+              student will be able to understand variable assignment
+              </li>
+            </ul > 
+      </cell>
+    </row>
+  </tabular>
+
+<p>
+  <c>Integer ClassTotal = Class1 + Class2 + Class3</c>
+</p>
+
+<p>
+  Here we are doing multiple things at once. 
+  We declared an Integer variable called ClassTotal and assigned the sum of Class1, Class2, and Class3 to it. 
+  This is called initialization. 
+  <term>Initialization is when a variable is given a starting value when it is declared.</term>
+</p>
+
+<p>
+  For example,
+</p>
+
+<p>
+  <c>Integer Class1 = 15, Class2 = 35, Class3 = 18</c>
+</p>
+
+<p>
+  Here we declare three variables altogether and initialize them. How about if we do not initialize them like we did in the earlier example? This is known as an uninitialized variable. This means that the variable currently has just some random garbage data stored in it. And if you use it without assigning it a value unexpected things can happen. So remember to always initialize or set your variables before using them. 
+</p>
+
+<p>
+  Now we are ready to implement the problem we presented earlier. 
+</p>
+
+    <exercises xml:id="exercises-checkIn">
+      <exercise label="I am ready to start">
+        <!-- Title is optional. Statement is the actual problem question. -->
+        <!-- At least one choice must be marked as correct. Feedback can be removed but is encouraged. -->
+        <!-- <title>Multiple-Choice, Not Randomized, One Answer</title> -->
+        <statement>
+          <p>Are you feeling ready to continue?</p>
+        </statement>
+
+        <choices>
+          <choice correct="yes">
+            <statement>
+              <p>Yes, I'm ready!</p>
+            </statement>
+            <feedback>
+              <p>
+                Yay! Let's continue.
+              </p>
+            </feedback>
+          </choice>
+
+          <choice>
+            <statement>
+              <p>No, I don't feel ready.</p>
+            </statement>
+            <feedback>
+              <p>Oh no! Take some time to reread this chapter.</p>
+            </feedback>
+          </choice>
+        </choices>
+        <hint>
+          <p>Ready? Let's continue</p>
+        </hint>
+      </exercise>
+    </exercises>
+
+  </section>
