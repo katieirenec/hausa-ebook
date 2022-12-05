@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_two-two">
+  <title>Data</title>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          Student will be able to...
+          <ul >
+              <li >Define the term data and find examples of its importance in their own lives </li >
+            </ul > 
+      </cell>
+    </row>
+  </tabular>
+
+  <p>
+    To start off, what is data? Why is it important? And how do we use it in our programs? 
+    <term>Data is a collection of information that is gathered.</term> 
+    It is important because data helps us understand and describe things around us. For example, let’s say you are very curious about what class has the most amount of students. You go around each class counting how many students are in that class and you write it down in your journal. What you are collecting is called data. Once you are done you can use that data to describe things such as saying a particular class is the largest or the smallest in terms of number of students. You can also then take the average and find out what the typical number of students in a class is and so on. You can also use data to understand things better. Let’s go back to the example of you gathering data on the amount of students per class. Let’s say you and your friends were always curious as to why your classroom is smaller than the one right next to yours. You ask your teacher what makes a deciding factor in making a classroom big or small. Your teacher answers by saying the number of students. You use the data you found earlier and see that the number of students in the class right next to yours is twice the amount in your class, hence why the classroom is bigger. 
+    Here you use data for understanding phenomena around you. 
+  </p>
+
+<exercises>
+   <exercise label="Collect Data">
+  <statement>
+    <p>
+       Give an example of where else data is collected.
+      </p> <p>
+        <var width="50" /> 
+    </p>
+  </statement>
+    <setup>
+    <var>
+    <condition string=".*">
+    <feedback>
+      <p>
+        Thank you for the example.
+      </p>
+    </feedback>
+    </condition>
+     <condition number="1" tolerance="1000">
+    <feedback>
+      <p>
+        Please give a short answer example.
+      </p>
+   
+    </feedback>
+    </condition>
+    </var>
+  </setup>
+</exercise>
+</exercises>
+
+</section>

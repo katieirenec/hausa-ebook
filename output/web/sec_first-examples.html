@@ -44,7 +44,8 @@ window.MathJax = {
     )}
 },
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/components/prism-core.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/autoloader/prism-autoloader.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
@@ -55,6 +56,37 @@ window.MathJax = {
 <link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '5.0.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.3.24/runtime.b9c4862031d919a3.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.3.24/637.d54be67956c5c660.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.3.24/runestone.d6e48037c4e99c27.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.3.24/637.0fa6cababf056764.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.3.24/runestone.93e720e6c6581fb5.css">
 </head>
 <body class="pretext-book ignore-math has-toc has-sidebar-left">
 <a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
@@ -101,24 +133,30 @@ window.MathJax = {
 <li><a href="ex_first.html" data-scroll="ex_first" class="internal">My Exercises</a></li>
 </ul>
 </li>
-<li class="link"><a href="ch_four.html" data-scroll="ch_four" class="internal"><span class="codenumber">2</span> <span class="title">BABI NA HUDU</span></a></li>
 <li class="link">
-<a href="ch_first.html" data-scroll="ch_first" class="internal"><span class="codenumber">3</span> <span class="title">Chapter 6</span></a><ul>
+<a href="ch_twotemplate.html" data-scroll="ch_twotemplate" class="internal"><span class="codenumber">2</span> <span class="title">BABI NA</span></a><ul>
+<li><a href="exercises-checkIn.html" data-scroll="exercises-checkIn" class="internal">Exercises</a></li>
+<li><a href="sec_two-two.html" data-scroll="sec_two-two" class="internal">Data</a></li>
+<li><a href="sec_two-three.html" data-scroll="sec_two-three" class="internal">Data and Variables</a></li>
+<li><a href="sec_two-four.html" data-scroll="sec_two-four" class="internal">Data type</a></li>
+<li><a href="sec_two-five.html" data-scroll="sec_two-five" class="internal">Variables</a></li>
+<li><a href="sec_two-six.html" data-scroll="sec_two-six" class="internal">More About Variables!</a></li>
+<li><a href="sec_two-seven.html" data-scroll="sec_two-seven" class="internal">Basic Program</a></li>
+<li><a href="sec_two-eight.html" data-scroll="sec_two-eight" class="internal">Constant Variables</a></li>
+<li><a href="sec_two-nine.html" data-scroll="sec_two-nine" class="internal">Comments</a></li>
+</ul>
+</li>
+<li class="link"><a href="ch_four.html" data-scroll="ch_four" class="internal"><span class="codenumber">3</span> <span class="title">BABI NA HUDU</span></a></li>
+<li class="link">
+<a href="ch_first.html" data-scroll="ch_first" class="internal"><span class="codenumber">4</span> <span class="title">Chapter 6</span></a><ul>
 <li><a href="sec_first-intro.html" data-scroll="sec_first-intro" class="internal">Introduction to First Chapter</a></li>
 <li><a href="sec_first-examples.html" data-scroll="sec_first-examples" class="active">Examples</a></li>
 <li><a href="ex_first.html" data-scroll="ex_first" class="internal">My Exercises</a></li>
 </ul>
 </li>
-<<<<<<< HEAD
+<li class="link"><a href="ch_five.html" data-scroll="ch_five" class="internal"><span class="codenumber">5</span> <span class="title">Tsarin kewaye ko maimaita kansa (looping structure)</span></a></li>
 <li class="link">
-<a href="ch_features.html" data-scroll="ch_features" class="internal"><span class="codenumber">4</span> <span class="title">Examples of PreTeXt features</span></a><ul><li><a href="sec_features-blocks.html" data-scroll="sec_features-blocks" class="internal">Environments and Blocks</a></li></ul>
-=======
-<li class="link"><a href="ch_empty.html" data-scroll="ch_empty" class="internal"><span class="codenumber">2</span> <span class="title">(No title)</span></a></li>
-<li class="link"><a href="ch_two.html" data-scroll="ch_two" class="internal"><span class="codenumber">3</span> <span class="title">BABI NA BIYU (2)</span></a></li>
-<li class="link"><a href="ch_five.html" data-scroll="ch_five" class="internal"><span class="codenumber">4</span> <span class="title">Tsarin kewaye ko maimaita kansa (looping structure)</span></a></li>
-<li class="link">
-<a href="ch_features.html" data-scroll="ch_features" class="internal"><span class="codenumber">5</span> <span class="title">Examples of PreTeXt features</span></a><ul><li><a href="sec_features-blocks.html" data-scroll="sec_features-blocks" class="internal">Environments and Blocks</a></li></ul>
->>>>>>> 591eabf07d8bd5eed4e76813857a76a24ee0f1b1
+<a href="ch_features.html" data-scroll="ch_features" class="internal"><span class="codenumber">6</span> <span class="title">Examples of PreTeXt features</span></a><ul><li><a href="sec_features-blocks.html" data-scroll="sec_features-blocks" class="internal">Environments and Blocks</a></li></ul>
 </li>
 <li class="link backmatter"><a href="meta_backmatter.html" data-scroll="meta_backmatter" class="internal"><span class="title">Backmatter</span></a></li>
 <li class="link"><a href="solutions-1.html" data-scroll="solutions-1" class="internal"><span class="codenumber">A</span> <span class="title">Selected Hints</span></a></li>
@@ -129,32 +167,32 @@ window.MathJax = {
 </ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
 </div></div>
 <main class="main"><div id="content" class="pretext-content"><section class="section" id="sec_first-examples"><h2 class="heading hide-type">
-<span class="type">Section</span> <span class="codenumber">3.2</span> <span class="title">Examples</span>
+<span class="type">Section</span> <span class="codenumber">4.2</span> <span class="title">Examples</span>
 </h2>
-<p id="p-129">Here is an example:</p>
+<p id="p-221">Here is an example:</p>
 <article class="example example-like" id="example-3"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-3"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.1</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-3"><article class="example example-like"><p id="p-130">The statement of the example, since it will have a solution.  What is the solution?</p>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.1</span><span class="period">.</span>
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-3"><article class="example example-like"><p id="p-222">The statement of the example, since it will have a solution.  What is the solution?</p>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-3" id="solution-3"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-3"><div class="solution solution-like"><p id="p-131">This is the solution.</p></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-3" id="solution-3"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-3"><div class="solution solution-like"><p id="p-223">This is the solution.</p></div></div>
 </div></article></div>
-<p id="p-132">Here is another example, but without a solution</p>
+<p id="p-224">Here is another example, but without a solution</p>
 <article class="example example-like" id="example-4"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-4"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.2</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-4"><article class="example example-like"><p id="p-133">This is an example of an example without a solution (or hint or answer) so the paragraph doesn't need to be inside a statement tag.</p></article></div>
-<p id="p-134">Although the next things are not examples, they give examples of blocks that are not examples.  First a theorem.</p>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="period">.</span>
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-4"><article class="example example-like"><p id="p-225">This is an example of an example without a solution (or hint or answer) so the paragraph doesn't need to be inside a statement tag.</p></article></div>
+<p id="p-226">Although the next things are not examples, they give examples of blocks that are not examples.  First a theorem.</p>
 <article class="theorem theorem-like" id="thm_first-examples-theorem"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Theorem Title.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Theorem Title.</span>
 </h3>
-<p id="p-135">This is the statement of the theorem.</p></article><article class="hiddenproof" id="proof-2"><a href="" data-knowl="" class="id-ref proof-knowl original" data-refid="hk-proof-2"><h3 class="heading"><span class="type">Proof<span class="period">.</span></span></h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-proof-2"><article class="hiddenproof"><p id="p-136">And this is its proof.</p></article></div>
+<p id="p-227">This is the statement of the theorem.</p></article><article class="hiddenproof" id="proof-2"><a href="" data-knowl="" class="id-ref proof-knowl original" data-refid="hk-proof-2"><h3 class="heading"><span class="type">Proof<span class="period">.</span></span></h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-proof-2"><article class="hiddenproof"><p id="p-228">And this is its proof.</p></article></div>
 <article class="corollary theorem-like" id="cor_first-examples-corollary"><h3 class="heading">
-<span class="type">Corollary</span><span class="space"> </span><span class="codenumber">3.2.4</span><span class="period">.</span>
+<span class="type">Corollary</span><span class="space"> </span><span class="codenumber">4.2.4</span><span class="period">.</span>
 </h3>
-<p id="p-137">A corollary that doesn't need a proof.</p></article><p id="p-138">Perhaps at the end of the section, you want to add a note to the reader about how what you have fits into the larger scope of mathematics.</p>
+<p id="p-229">A corollary that doesn't need a proof.</p></article><p id="p-230">Perhaps at the end of the section, you want to add a note to the reader about how what you have fits into the larger scope of mathematics.</p>
 <article class="remark remark-like" id="remark_first-examples-context"><h3 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.2.5</span><span class="period">.</span><span class="space"> </span><span class="title">Larger Context.</span>
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">4.2.5</span><span class="period">.</span><span class="space"> </span><span class="title">Larger Context.</span>
 </h3>
-<p id="p-139">Comment to the reader here.</p></article><p id="p-140">Of course, if you want more information, you might see <a href="" class="xref" data-knowl="./knowl/thm_first-examples-theorem.html" title="Theorem 1.2.3: Theorem Title">Theorem 1.2.3</a>.</p></section></div></main>
+<p id="p-231">Comment to the reader here.</p></article><p id="p-232">Of course, if you want more information, you might see <a href="" class="xref" data-knowl="./knowl/thm_first-examples-theorem.html" title="Theorem 1.2.3: Theorem Title">Theorem 1.2.3</a>.</p></section></div></main>
 </div>
 </body>
 </html>

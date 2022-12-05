@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_two-eight">
+  <title>Constant Variables</title>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          <ul >
+              <li >Student will be able to identify when to use a constant variable</li >
+            </ul > 
+      </cell>
+    </row>
+  </tabular>
+
+  <p>
+    We have mentioned earlier that variables are changeable meaning you can change the value a variable is holding at any point in the program’s execution. What if you want to keep a variable at a constant value throughout the program? You don’t want to accidentally change it. You can then use a constant variable. A constant variable is a special type of variable that can not be changed while the program is executing. For example, let's go back to the example we were talking about earlier. Let’s assume that your school only had three classrooms, class1, class2, and class3. And the use of the total number of classrooms comes up frequently in the program implementation. We can use a constant variable in its place since.
+  </p>
+
+<p>
+    <ol>
+        <li>
+            <p>
+                We do not need to change the value of the total number of classrooms while the program is executing. 
+            </p>
+        </li>
+
+        <li>
+            <p>
+                If we replace all the places where we used to have the total number of classrooms “3” (number literal, A number literal is a number that appears fixed in a program. It is not a variable) with a constant if the number of classrooms ever changed to 4 or another number all we have to do is change the value of the constant before the program is run and it will be reflected in all places. 
+            </p>
+        </li>
+    </ol>
+</p>
+
+<p>
+    Constants are usually noted by naming the variable in all caps. For example;
+</p>
+
+<p>
+    <c>Const Integer TOTAL_CLASSROOMS</c>
+</p>
+
+<exercises>
+   <exercise label="Constants">
+  <statement>
+    <p>
+       Give a scenario where using a constant is more appropriate
+      </p> <p>
+        <var width="50" /> 
+    </p>
+  </statement>
+    <setup>
+    <var>
+    <condition string=".*">
+    <feedback>
+      <p>
+        Thank you for the example.
+      </p>
+    </feedback>
+    </condition>
+     <condition >
+     <!-- number="1" tolerance="1000" -->
+    <feedback>
+      <p>
+        Please give a short answer example.
+      </p>
+   
+    </feedback>
+    </condition>
+    </var>
+  </setup>
+</exercise>
+</exercises>
+  </section>
