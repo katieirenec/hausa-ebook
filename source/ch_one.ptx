@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copy this template to create a new chapter. -->
+<!-- Always give a unique xml id, duplicates cause issues  -->
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch_one">
+  <title>Babi Na Daya</title>
+  <!-- If the chapter has sections, there may be an introduction -->
+  <!-- but intro and conclusion are optional  -->
+  <!-- <introduction>
+    <p>Chapter introduction</p>
+  </introduction> -->
+  <!-- Copy and paste this section to add more content -->
+  <section xml:id="ch_one_sec_one">
+    <!-- <title>Subchapter Title</title> -->
+    <introduction>
+      <p>
+        Mahimman abun koya
+        <ul>
+          <li>
+            <p>Dalibai za su fahimci cewa kirkira ya ƙunshi jerin umarni</p>
+          </li>
+          <li>
+            <p>Dalibai za su fahimci…</p>
+            <ul>
+              <li>
+                <p>
+                  Mai ma kirkiri ya ke yi
+                </p>
+              </li>
+              <li>
+                <p>
+                  Aikin ma kirkiri
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>Dalibai za su fahimci sashen Masarrafar Bayanai, na’urori masu shigar da ko fitar da bayanai, RAM, Ma’aji na biyu - (sassan kwamfuta) muhimman sassan kwamfuta</p>
+          </li>
+        </ul>
+      </p>
+    </introduction>
+
+    <p>Menene kirkira? Sannan ta yaya zan iya fara kirkira? Ina dai tsammanin ka kasance a wannan wajen ne domin wannan manufa. Ko koma ka na su ka tuna wasu abubuwa game da sha’anin kirkirar manhaja da ka taba karantawa a baya. Koma dai yayane, wannnan littafin zai kasance maka wani haske ne da zai kasance mafarin sanin wannan harkan na kirkira. Saboda haka,
+    ina tsammanin a karshen wannan littafin zaka fahimce abubuwa da dama
+    akan wannan fanni na kirkirar manhaja, sannnan ina tsammanin harma za ka 
+    samu damar iya kirkirar naka karamun manhajar.
+    </p>
+    <!-- <figure>
+      <caption>Example caption</caption>
+      <image source="frog.jpg" width="50%">
+        <description>Accessibility Description</description>
+      </image>
+    </figure> -->
+
+    <exercises xml:id="exercises-ch_one_sec_one">
+      <exercise>
+
+        <!-- Title is optional. Statement is the actual problem question. -->
+        <!-- At least one choice must be marked as correct. Feedback can be removed but is encouraged. -->
+        <!-- <title>Multiple-Choice, Not Randomized, One Answer</title> -->
+        <statement>
+          <p>Ka shirya?</p>
+        </statement>
+
+        <choices>
+          <choice correct="yes">
+            <statement>
+              <p>Na fahimta abubuwan baya</p>
+            </statement>
+            <feedback>
+              <p>
+                Write feedback
+              </p>
+            </feedback>
+          </choice>
+
+          <choice>
+            <statement>
+              <p>A'a (change)</p>
+            </statement>
+            <feedback>
+              <p>write feedback</p>
+            </feedback>
+          </choice>
+        </choices>
+        <!-- There can be more than one hint, just copy/paste the section below-->
+        <!-- <hint>
+          <p>Have a hint!</p>
+        </hint> -->
+      </exercise>
+    </exercises>
+
+
+    <p>Wannan littafin zai haskakawa dalibai duniyar
+    kirkire-kirkire mai ban al’ajabi. To amma yanzu bari in fara da amsa
+    wancen tambaya da aka yi dazu, wato menene kirkira?
+
+    Menene kirkira? 
+    Kirkira wani hanyace na samar da wasu sinkin umarni da na’urar mai ƙwaƙwalwa (kwamfuta) zai iya aiwatar da. Taron umarni da kamfuta za ta iya aiwatar da, ake kira ‘program’ wato ayyuka. Line break 
+    Mutumin da yake rubuta wannan ‘program’ (aiki) shi ake kira da ‘programmer’ wato makirkiri.
+    Wata kalmar da ake kiran (program) aiki itace ‘software’ wato manhaja. Sannan ana iya kiran kalmar ‘programmer’ wato makirkiri da makirkirin manhaja wato ‘software developer’. To amma dai duk wannan ba shine abin tambaya a wajen mutumin da yake sabo a wannan babin ba. Tambayar dalibe anan ba zai wuce yace ta yaya na’urar komfiwta ke iya daukar wadannan jerin umarnin da makirkirn ya rubutasu sannan ya sarrafasu harma ya aiwatar da ayyuka da dama da
+    aka sanya da yayi a cikin wannan jerin umarnin ba. Wannan dama sauran
+    amsar wasu tambayoyin da ba a yisu anan ba zasu zo a nan gaba kadan a
+    wannan littafin in Allah ya yarda.
+    </p>
+    <p>
+      culturally relevant examples
+    </p>
+    <exercises xml:id="exercises-ch_one_sec_one_two">
+      <exercise>
+
+        <!-- Title is optional. Statement is the actual problem question. -->
+        <!-- At least one choice must be marked as correct. Feedback can be removed but is encouraged. -->
+        <!-- <title>Multiple-Choice, Not Randomized, One Answer</title> -->
+        <statement>
+          <p>Menene aikin makirkiri? </p>
+        </statement>
+
+        <choices randomize="yes">
+          <choice correct="yes">
+            <statement>
+              <p>Rubuta umarni da kwamfuta za ta aiwatar da</p>
+            </statement>
+            <feedback>
+              <p>
+                Write feedback
+              </p>
+            </feedback>
+          </choice>
+
+          <choice>
+            <statement>
+              <p>Hada kwamfuta</p>
+            </statement>
+            <feedback>
+              <p>write feedback</p>
+            </feedback>
+          </choice>
+          
+          <choice>
+            <statement>
+              <p>gaya wa mutane abin da za su yi</p>
+            </statement>
+            <feedback>
+              <p>write feedback</p>
+            </feedback>
+          </choice>
+        </choices>
+      </exercise>
+    </exercises>
+  </section>
+
+
+  <section xml:id="ch_one_sec_two">
+  
+
+    <p>
+            A game da yadda kwamfuta ke daukar wadannan jerin umarni a
+      matsayin yaren dan adam (High level language) sannan ya sarrafasu ko ya
+      juyasu zuwa yaren komfuwta (low level language) to kuwa sai dai in
+      takaice bayanina domin wannan littafin ba zai dauka duka wadannan bayanan
+      ba sai dai a takaita.
+
+    </p>>
+    <p>
+                Zayyana harkar kirkira zai yi matukar taimaka maka a wajen sanin wannnan sha’anin na kirkira. Duk abin da zamu tattauna a wannan littafin ba zai fita daga abinda ya shafi harkar
+    kwamfuta ba, ma’ana dai abubuwan da zamu tattauna na da alaka da kwamfuta.
+    Na’urar mai ƙwaƙwalwa (kwamfuta) wani irin na’ura ne da ake kirkira masa hanyar da zai bi ya sarrafa umarni domin aiwatar da wasu ayyuka na musamman. 
+
+    </p>>
+    <p>
+      Misalin irin wadannan na’urorin masu ƙwaƙwalwa sun hada da irinsu; kwamfutar cinya (Laptop), kwamfutar kan tebur (Desktop), na’urorin lissafi (Calculators), na’urorin samar da zafi domin gasa ko dumama abu (Microwaves), na’urorin  jagora domin nuna guri (navigation devices). 
+    </p>
+    
+
+
+    <exercises xml:id="exercises-ch_one_sec_two">
+      <exercise label="short-answer-question">
+      <title>Short Answer</title>
+      <statement>
+        <p>
+          Kai ma ba da na ka misalin na kwamfuta
+        </p>
+      </statement>
+      <response />
+    </exercise>
+    </exercises>
+
+        <p>Gaba daya wadannan na’urorin suna da sassa na zahiri da suka hadu
+  suka samar da su. Sassa na zahiri (Hardware) sune abubuwan da suka
+  hadu suka samar da kwamfuta. Sune irin sassan da ake iya gani da
+  taba wa. Cikakken na’urar komfiwta yana da sassa irinsu sashen masarrafar bayanai (SMB) wato ‘Central Processing Unit (CPU)’, ma’aji (memory), kananan na’urori masu shigar da ko fitar da bayanai (input and output devices), da kuma Ma’aji da ake sakowa daga waje (secondary storage devices).
+
+
+  </p>
+
+    <exercises xml:id="exercises-ch_one_sec_two_two">
+      <exercise>
+        <statement>
+          <p>Ka shirya?</p>
+        </statement>
+
+        <choices>
+          <choice correct="yes">
+            <statement>
+              <p>Na fahimta abubuwan baya</p>
+            </statement>
+            <feedback>
+              <p>
+                Write feedback
+              </p>
+            </feedback>
+          </choice>
+
+          <choice>
+            <statement>
+              <p>A'a (change)</p>
+            </statement>
+            <feedback>
+              <p>write feedback</p>
+            </feedback>
+          </choice>
+        </choices>
+      </exercise>
+    </exercises>
+
+  <remark>
+    <p>
+      Abinda ake nufi da ‘high level language’ ko
+muce yaren da mutum dan adam ke iya fahimta shine, duk wani yare da
+dan adam ke amfani da shi a matsayin hanyar zayyana ko isar da sako.
+
+    </p>
+  </remark>
+  <p>
+    TODO
+  </p>
+
+
+  </section>
+  
+
+  <!-- <conclusion>
+    <p>Chapter conclusion</p>
+  </conclusion> -->
+</chapter>

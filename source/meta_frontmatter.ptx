@@ -6,9 +6,9 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="meta_frontmatter">
   <titlepage>
     <author>
-      <personname>Me</personname>
-      <department>My department</department>
-      <institution>My school</institution>
+      <personname>Yasmin Isa</personname>
+      <department>Computer Science Education</department>
+      <institution>University of Illinois at Urbana-Champaign</institution>
     </author>
     <date><today/></date>
   </titlepage>
@@ -24,8 +24,8 @@
       <!-- In addition to specifying the copyright holder, you should  -->
       <!-- include a license, such as the cc-by-sa license shown below -->
       <!-- so people reading your book know how they can use it.       -->
-      <year>2020<ndash/>2022</year>
-      <holder>Me</holder>
+      <year>2022<ndash/>2023</year>
+      <holder>Yasmin Isa</holder>
       <!-- <minilicense><image source="../images/by-sa.png" /></minilicense> -->
       <shortlicense>
         <!-- <image source="../images/by-sa.png" width="15%"/>  -->

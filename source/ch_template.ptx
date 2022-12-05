@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copy this template to create a new chapter. -->
+<!-- Always give a unique xml id, duplicates cause issues  -->
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch_template">
+  <title>Template Chapter</title>
+  <!-- If the chapter has sections, there may be an introduction -->
+  <!-- but intro and conclusion are optional  -->
+  <introduction>
+    <p>Chapter introduction</p>
+  </introduction>
+  <!-- Copy and paste this section to add more content -->
+  <section xml:id="template_first_section">
+    <title>Subchapter Title</title>
+    <introduction>
+      <p>
+        Learning Objectives:
+        <ul>
+          <li>
+            <p>1</p>
+          </li>
+          <li>
+            <p>2</p>
+          </li>
+          <li>
+            <p>3</p>
+          </li>
+        </ul>
+      </p>
+    </introduction>
+
+    <p>Content text, images, etc.</p>
+    <figure>
+      <caption>Example caption</caption>
+      <image source="frog.jpg" width="50%">
+        <description>Accessibility Description</description>
+      </image>
+    </figure>
+
+    <exercises xml:id="exercises-template">
+      <exercise label="multiple-choice-not-randomized">
+
+        <!-- Title is optional. Statement is the actual problem question. -->
+        <!-- At least one choice must be marked as correct. Feedback can be removed but is encouraged. -->
+        <!-- <title>Multiple-Choice, Not Randomized, One Answer</title> -->
+        <statement>
+          <p>Are you feeling ready to continue?</p>
+        </statement>
+
+        <choices>
+          <choice correct="yes">
+            <statement>
+              <p>Yes, I'm ready!</p>
+            </statement>
+            <feedback>
+              <p>
+                Yay! Let's continue.
+              </p>
+            </feedback>
+          </choice>
+
+          <choice>
+            <statement>
+              <p>No, I don't feel ready.</p>
+            </statement>
+            <feedback>
+              <p>Oh no! Take some time to reread this chapter.</p>
+            </feedback>
+          </choice>
+        </choices>
+        <!-- There can be more than one hint, just copy/paste the section below-->
+        <hint>
+          <p>Have a hint!</p>
+        </hint>
+      </exercise>
+    </exercises>
+
+    <conclusion>
+      <p>Section conclusion</p>
+    </conclusion>
+  </section>
+  <conclusion>
+    <p>Chapter conclusion</p>
+  </conclusion>
+</chapter>
