@@ -14,8 +14,8 @@
   <!-- to some short (non-spaced) description of your book         -->
   <book xml:id="my-great-book">
     <!-- The book needs a title and can have a subtitle  -->
-    <title>Hausa Intro to Programming</title>
-    <subtitle>subtitle tbd</subtitle>
+    <title>Intro to Programming</title>
+    <subtitle>Hausa</subtitle>
 
     <!-- Now we include files containing each main devision.       -->
 
