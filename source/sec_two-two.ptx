@@ -9,7 +9,10 @@
         Learning Objective: 
           Student will be able to...
           <ul >
-              <li >Define the term data and find examples of its importance in their own lives </li >
+              <li >Define the term data </li >
+              <li>
+                Find examples of importance of data in their own lives
+              </li>
             </ul > 
       </cell>
     </row>
@@ -40,7 +43,8 @@
       </p>
     </feedback>
     </condition>
-     <condition number="1" tolerance="1000">
+     <!-- <condition number="1" tolerance="1000"> -->
+     <condition>
     <feedback>
       <p>
         Please give a short answer example.

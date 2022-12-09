@@ -48,7 +48,7 @@
       </statement>
       <feedback>
         <p>
-          CYes, num is correct.
+          Yes, num is correct.
         </p>
       </feedback>
     </choice>
@@ -84,7 +84,7 @@
       </statement>
       <feedback>
         <p>
-          Remember that varaibles cannot have spaces between them
+          Remember that variables cannot have spaces between them
         </p>
       </feedback>
     </choice>
@@ -97,12 +97,31 @@
 </exercise>
 </exercises>
 
-
-
-
-
-
 <p>
     Often programmers use camelCase. camelCase is the practice of writing phrases without spaces or punctuation, indicating the separation of words with a single capitalized letter, and the first word starting with either case. Another style is snake_case, which uses under_scores to represent spaces
 </p>
+
+<exercises>
+<exercise label="clickable-code-camel-and-snake-case">
+  <title>Clickable Areas, Code</title>
+  <statement>
+    <p>
+      Identify (by clicking) all of the assignment statements that have used camel case.
+    </p>
+  </statement>
+  <areas language="python">
+    <cline><area correct="no">show = "hello_world"</area></cline>
+    <cline><area correct="no">num_1 = 40</area></cline>
+    <cline><area correct="yes">numThree = 55</area></cline>
+    <cline><area correct="no">num_2 = 30</area></cline>
+    <cline><area correct="yes">varShow = False</area></cline>
+  </areas>
+  <feedback>
+    <p>
+      Remember, the operator <c>=</c> is used for assignment.
+    </p>
+  </feedback>
+</exercise>
+</exercises>
+
   </section>
