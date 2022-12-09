@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_three-two">
+  <title>Accessing Array Elements</title>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          <ul >
+              <li >Students will be able to analyze the different parts of the array  </li >
+              <li> Students will be able to understand how to access array elements</li>
+            </ul > 
+      </cell>
+    </row>
+  </tabular>
+
+<p>
+You might be thinking this is great. Now we can eliminate having to write lots of variables to store data, but a good question might be how would we access this data. We will introduce you to indices and elements. Elements are the slots we have allocated that hold a specific value in the array. An index is an integer that denotes a position in the array. Like in most programming languages and in this book we will use zero-based indexing.
+</p>
+
+<tabular top="medium">
+    <row left="medium">
+      <cell  right="medium">
+check-point zero-based indexing means we start counting the index from 0 rather than one. 
+    </cell>
+    </row>
+    <row  left="medium">
+      <cell  right="medium">
+So the first element will be at position 0, Python is zero-based. </cell>
+    </row>
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+However, not all programming languages are zero-based indexed.      </cell>
+    </row>
+  </tabular>
+
+  <figure>
+      <caption></caption>
+      <image source="arrayAid.jpeg" width="50%">
+        <description>visual aid of zero-based and non-zero-based</description>
+      </image>
+    </figure>
+
+    <p>
+        Array elements must all be of the same type. So, one element in an array can not be an integer while another is a string. Here is an example. 
+    </p>
+
+<tabular top="medium">
+    <row  left="medium">
+      <cell  right="medium">
+String fruits[5] = [“orange”,”apple”,”grape”,”banana”,”watermelon”]
+ </cell>
+ </row>
+ <row left="medium">
+ <cell right="medium">
+ [orange][apple][grape][banana][watermelon]
+ </cell>
+    </row>
+    <row bottom="medium" left="medium">
+        <cell right="medium">0            1         2          3             4</cell>
+    </row>
+  </tabular>
+
+  <p>
+    In Python, you do not have to explicitly state the number of slots, therefore is this how you will achieve the same thing.
+  </p>
+
+  <p>
+    Fruits = [“orange”,”apple”,”grape”,”banana”,”watermelon”]
+  </p>
+
+<!-- Activity: allows students to create their own array in pseudocode and in python -->
+
+<p>
+    The elements are the values contained in each slot in the array and the index are the positions starting from 0. So for example in the array above the second position which is at index 1 holds a string value of “apple”
+</p>
+
+<c>Display fruits[1]  ---- output</c>
+
+<p>
+    And if you want to assign a value to a specific index you can do so by specifying which position you would like to modify
+</p>
+
+<p>
+    <c>Fruits[1] = pineapple
+Display fruits[1] ---------output
+</c>
+</p>
+
+<p>
+    As you have noticed the last index is always one less than the array size so you have to be careful of off-by-one errors. Trying to access unallocated locations will cause unexpected behaviors. For example fruits[5] may crash the program or output garbage data. Remember to never access slots you have not allocated. 
+</p>
+
+<p>
+    There are other types of data containers that hold a lot of data and allow you to change the information within them easily, such as Lists, Maps(trees), and Stacks. (insert examples) In fact, you can even create your own data container and allow it to hold strings and integers together. This type of programming is called object-oriented programming. The workings of them are beyond the scope of this book, so the only large data container we will use in this book is an array. Below are practical examples for you.
+</p>
+
+<!-- Add runable program example -->
+
+<activity xml:id="coding-exercise-two-six">
+  <title>Activity Coding Exercise</title>
+  <statement>
+    <p>
+      Save and Run the below program.
+    </p>
+  </statement>
+        <program interactive="activecode" language="python">
+            <input>
+            print("Enter the size of array (less than 10)")
+            array_size = int(input())
+            arr = [0] * array_size
+            for i in range(0, array_size):
+                arr[i] = i * 5
+            print("The array is: ", arr)
+            </input>
+        </program>
+  <answer>
+    To declare and initialise an array
+  </answer>
+</activity>
+
+</section>

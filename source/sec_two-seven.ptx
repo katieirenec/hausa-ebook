@@ -105,4 +105,38 @@ Display “The sum is “, sum, “ and the average is ”, average
   </answer>
 </activity>
 
+<exercises>
+  <exercise label="program-numbered-right" language="python" adaptive="yes" indentation="hide">
+  <title>Parsons Problem, Programming</title>
+<statement>
+    <p>
+      Rearrange the code blocks below to input two numbers, find the difference and then print it.
+    </p>
+    <p>
+      
+    </p>
+</statement>
+<blocks numbered="left">
+    <block order="1">
+        <cline>print("Enter number 1")</cline>
+    </block>
+    <block order="2">
+        <cline>num_1 = int(input())</cline>
+    </block>
+    <block order="3">
+        <cline>print("Enter number 2")</cline>
+    </block>
+    <block order="4">
+        <cline>num_2 = int(input())</cline>
+    </block>
+    <block order="5">
+        <cline>diff = num_1 - num_2</cline>
+    </block>
+    <block order="6">
+        <cline>print("Difference: ", diff)</cline>
+    </block>
+    </blocks>
+  </exercise>
+  </exercises>
+
        </section>

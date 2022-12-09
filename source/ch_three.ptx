@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Chapters are enclosed with <chapter> tags. Use xml:id to -->
+<!-- uniquely identify the chapter.  The @xmlns:xi attribute  -->
+<!-- is needed if you use xi:include in this file             -->
+<chapter xml:id="ch_three" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Arrays </title>
+  <!-- If the chapter has sections, there may be an introduction -->
+  <!-- before those sections. Note the <p> tags around content.  -->
+
+  <tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          Student will understand…
+          <!-- <p> -->
+            <ul >
+              <li >Students will understand how to use arrays </li >
+              <li >Students will understand the importance of arrays and other data contains  </li >
+              <li>Students will be able to analyze the different parts of the array </li>
+            </ul >
+          <!-- </p> -->
+      </cell>
+    </row>
+  </tabular>
+
+ <introduction>
+    <p>Chapter 2 gave you a good overview of what variables are, how to use them, and why they are important in programming. 
+    We have discussed when to use different types of variables such as Integer variables and String variables and how to assign and change their value. However, the types of variables we have talked about so far seem to only store one piece of information at a time. I hope you can see how this approach can be very tedious for storing lots of information. In this chapter, we will talk about other types of data containers and what it means to create your own data type. Lastly, we will close with some practice problems to help deepen your understanding.
+    </p>
+    <p>
+        So far we have seen examples like the following
+    </p>
+
+    <p>
+        <c>Integer one
+Integer two
+Integer three
+</c>
+    </p>
+
+    <p>
+        In this example, variables one, two, and three each can only hold one integer. 
+    </p>
+
+    <p>
+        So in order to store three pieces of information we need to create three variables. This is very tedious to write, imagine if you need 100, 1000, or even 1,000,000 variables to hold data. Would you have to create many variables each with unique names to store the data in? The answer to that question is no. There are certain types of variables that allow you to access multiple data storage locations with the use of only one variable that only needs to be declared once. 
+    </p>
+
+    <p>
+        An Array is a special kind of variable that can give you access to more than one data storage location. You can think of it as a chain of variables of the same type glued together. 
+    </p>
+
+   <figure>
+      <caption>Array</caption>
+      <image source="arrayAid.jpeg" width="50%">
+        <description>Accessibility Description</description>
+      </image>
+    </figure>
+
+
+<exercises>
+<exercise label="Array">
+  <statement>
+    <p>
+       <c>Provide examples of where you might want to use an array to collect data</c>
+      </p> <p>
+        <var width="40" /> 
+    </p>
+  </statement>
+    <setup>
+    <var>
+    <condition string=".*">
+    <feedback>
+      <p>
+        Let's continue
+      </p>
+    </feedback>
+    </condition>
+     <!-- <condition number="1" tolerance="100000"> -->
+     <condition>    
+    <feedback>
+      <p>
+        Try again
+      </p>
+    </feedback>
+    </condition>
+    </var>
+  </setup>
+</exercise>
+</exercises>
+
+<p>
+    In technical terms. An array is a collection of contiguous memory locations. In order to declare an array you tell the program what type it is, meaning the type of data it will be holding and how many slots of memory spaces you will need. Below is an example
+</p>
+
+<tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Remember: not all programming languages require you to declare a variable before an assignment. 
+      </cell>
+    </row>
+  </tabular>
+
+
+<figure>
+      <caption>String array[10]</caption>
+      <image source="arrayAid.jpeg" width="50%">
+        <description>Arrows point to the different parts of the array declaration statement</description>
+      </image>
+    </figure>
+
+    <p>
+        You might be wondering what the square brackets are and also the number inside them. In many programming languages and in the pseudocode we will be using in this book, variable names with square brackets after them denote arrays and the number inside them is the size of the array. The number inside the square brackets must always be an integer because that denotes how many slots of space to allocate. 
+    </p>
+
+    <p>
+        Examples:
+    </p>
+
+<figure>
+      <caption>Integer array[5]</caption>
+      <image source="arrayAid.jpeg" width="50%">
+        <description>(visual aid)</description>
+      </image>
+    </figure>
+
+    <figure>
+      <caption>Integer array[15]</caption>
+      <image source="arrayAid.jpeg" width="50%">
+        <description>(visual aid)</description>
+      </image>
+    </figure>
+
+<exercises>
+<exercise label="fillin-case-insensitive">
+  <title>Arrays - Fill in the blanks</title>
+  <statement>
+    <p>
+      The data type of the array is <var /> .The size of the array <var /> .
+      The array name  <var />.
+    </p>
+  </statement>
+  <setup>
+    <var case="insensitive">
+    <condition string="integer">
+    <feedback>
+      Yes correct
+    </feedback>
+    </condition>
+    <condition string=".*">
+    <feedback>
+      Incorrect.
+    </feedback>
+    </condition>
+    </var>
+
+    <var>
+    <condition number="5">
+    <feedback>
+      <p>
+        Yes correct
+      </p>
+    </feedback>
+    </condition>
+    <condition string=".*">
+    <feedback>
+      <p>
+        Try again.
+      </p>
+    </feedback>
+    </condition>
+    </var>
+
+    <var>
+    <condition string="name">
+    <feedback>
+    <p>
+        Yes correct
+    </p>
+    </feedback>
+    </condition>
+    <condition string=".*">
+    <feedback>
+    <p>
+        Try again
+    </p>
+    </feedback>
+    </condition>
+    </var>
+  </setup>
+</exercise>
+</exercises>
+
+
+
+    </introduction>
+    <xi:include href="./sec_three-two.ptx" />
+    </chapter>

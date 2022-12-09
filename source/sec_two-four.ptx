@@ -111,7 +111,7 @@ Most languages will require you to declare a variable before you use it. The dec
   </p>
 
   <p>
-    <c>Data type </c><c>variable name → Integer amount</c>
+    <c>Datatype variable_name → Integer amount</c>
   </p>
 
 <p>
@@ -161,7 +161,24 @@ Most languages will require you to declare a variable before you use it. The dec
 </exercise>
 </exercises>
 
-<c>Integer class1
+<activity label="activity-in-subsection">
+      <program xml:id="coding-exercise-partial-three" interactive="no" language="c">
+          <input>Integer class1
+Integer class2
+Integer class3
+
+Display “Enter the number of students in class 1”
+class1 = Input (the single equal sign indicates assignment)
+Display “Enter the number of students in class 2”
+class2 = Input (assignment)
+Display “Enter the number of students in class 3”
+class3 = Input (assignment)
+          </input>
+      </program>
+</activity>
+
+<p>
+  <c>Integer class1
 Integer class2
 Integer class3
 
@@ -172,6 +189,8 @@ class2 = Input
 Display “Enter the number of students in class 3”
 class3 = Input (the single equal sign indicates assignment)
 </c>
+</p>
+
 
 <activity xml:id="coding-exercise-two-three">
   <title>Activity Coding Exercise</title>
@@ -199,3 +218,6 @@ class3 = Input (the single equal sign indicates assignment)
 </activity>
 
    </section>
+
+
+   
