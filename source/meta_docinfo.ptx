@@ -36,6 +36,10 @@
 
 <!-- Specify the default type of cross reference:           -->
   <cross-references text="type-global" />
+
+    <blurb shelf="Intro to Computer Science Textbooks">
+Wanna littafin na gabatar da wasu daga cikin tushen tsarin naurar mai ƙwaƙwalwa da ƙirkira. Koma wannan littafin na gabatar da dalibai ga wasu mahimman tubalan ginin don fahimtar ƙirkira.
+    </blurb>
   
 
 </docinfo>
