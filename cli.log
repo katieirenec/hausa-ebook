@@ -11,7 +11,7 @@ INFO    : verifying and expanding input directory: /Users/gurunanmapurushotam/De
 INFO    : input directory expanded to absolute path: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/assets
 INFO    : Runestone Services (via PreTeXt repository): version 6.3.16
 INFO    : Runestone Services (using newer, via online CDN query): version 6.3.25
-INFO    : converting /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx to HTML in /var/folders/5c/_c162qp11ts925kmc80lg7d00000gn/T/tmpgchx59zi
+INFO    : converting /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx to HTML in /var/folders/5c/_c162qp11ts925kmc80lg7d00000gn/T/tmpclc09wd9
 INFO    : XSL conversion of /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx by /Users/gurunanmapurushotam/.ptx/xsl/pretext-html.xsl
 INFO    : comprehensive messages, warnings, and errors:
 INFO    :     * PTX:ERROR: the @xml:id value "exercises-checkIn" should be unique, but is authored 2 times.
@@ -98,6 +98,362 @@ INFO    : Success! The most recent build of your project can be viewed in a web 
 INFO    :     http://localhost:8000
 INFO    : This page should open in a new tab automatically.
 INFO    : Use [Ctrl]+[C] to halt the server.
+
+INFO    : 
+Changes to source detected.
+
+INFO    : Preparing to build into /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/output/web.
+INFO    : 
+Now building HTML into /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/output/web
+
+INFO    : discovering source file's directory name: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source
+INFO    : verifying and expanding input directory: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/generated-assets
+INFO    : verifying and expanding input directory: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/../assets
+INFO    : input directory expanded to absolute path: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/assets
+INFO    : Runestone Services (via PreTeXt repository): version 6.3.16
+INFO    : Runestone Services (using newer, via online CDN query): version 6.3.25
+INFO    : converting /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx to HTML in /var/folders/5c/_c162qp11ts925kmc80lg7d00000gn/T/tmp9xwr2ds2
+INFO    : XSL conversion of /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx by /Users/gurunanmapurushotam/.ptx/xsl/pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    :     * PTX:ERROR: the @xml:id value "exercises-checkIn" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "coding-exercise-two-six" should be unique, but is authored 3 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     * PTX:ERROR: the @label value "exercises-checkIn" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @label value "I am ready to start" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @label value "coding-exercise-two-six" should be unique, but is authored 3 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     * PTX:BUG: asking if a non-traditional division (introduction) is structured or not
+INFO    :     * PTX:BUG: asking if a non-traditional division (introduction) is structured or not
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    : successful application of /Users/gurunanmapurushotam/.ptx/xsl/pretext-html.xsl
+INFO    : 
+Success! Run `pretext view web` to see the results.
+
+INFO    : 
+Changes to source detected.
+
+INFO    : Preparing to build into /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/output/web.
+INFO    : 
+Now building HTML into /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/output/web
+
+INFO    : discovering source file's directory name: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source
+INFO    : verifying and expanding input directory: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/generated-assets
+INFO    : verifying and expanding input directory: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/../assets
+INFO    : input directory expanded to absolute path: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/assets
+INFO    : Runestone Services (via PreTeXt repository): version 6.3.16
+INFO    : Runestone Services (using newer, via online CDN query): version 6.3.25
+INFO    : converting /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx to HTML in /var/folders/5c/_c162qp11ts925kmc80lg7d00000gn/T/tmpcquuvjxk
+INFO    : XSL conversion of /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx by /Users/gurunanmapurushotam/.ptx/xsl/pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    :     * PTX:ERROR: the @xml:id value "exercises-checkIn" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "coding-exercise-two-six" should be unique, but is authored 3 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     * PTX:ERROR: the @label value "exercises-checkIn" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @label value "I am ready to start" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @label value "coding-exercise-two-six" should be unique, but is authored 3 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     * PTX:BUG: asking if a non-traditional division (introduction) is structured or not
+INFO    :     * PTX:BUG: asking if a non-traditional division (introduction) is structured or not
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    : successful application of /Users/gurunanmapurushotam/.ptx/xsl/pretext-html.xsl
+INFO    : 
+Success! Run `pretext view web` to see the results.
+
+INFO    : 
+Changes to source detected.
+
+INFO    : Preparing to build into /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/output/web.
+INFO    : 
+Now building HTML into /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/output/web
+
+INFO    : discovering source file's directory name: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source
+INFO    : verifying and expanding input directory: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/generated-assets
+INFO    : verifying and expanding input directory: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/../assets
+INFO    : input directory expanded to absolute path: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/assets
+INFO    : Runestone Services (via PreTeXt repository): version 6.3.16
+INFO    : Runestone Services (using newer, via online CDN query): version 6.3.25
+INFO    : converting /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx to HTML in /var/folders/5c/_c162qp11ts925kmc80lg7d00000gn/T/tmpbc3q45_k
+INFO    : XSL conversion of /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx by /Users/gurunanmapurushotam/.ptx/xsl/pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    :     * PTX:ERROR: the @xml:id value "exercises-checkIn" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "coding-exercise-two-six" should be unique, but is authored 3 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     * PTX:ERROR: the @label value "exercises-checkIn" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @label value "I am ready to start" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @label value "coding-exercise-two-six" should be unique, but is authored 3 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     * PTX:BUG: asking if a non-traditional division (introduction) is structured or not
+INFO    :     * PTX:BUG: asking if a non-traditional division (introduction) is structured or not
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    : successful application of /Users/gurunanmapurushotam/.ptx/xsl/pretext-html.xsl
+INFO    : 
+Success! Run `pretext view web` to see the results.
+
+INFO    : 
+Changes to source detected.
+
+INFO    : Preparing to build into /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/output/web.
+INFO    : 
+Now building HTML into /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/output/web
+
+INFO    : discovering source file's directory name: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source
+INFO    : verifying and expanding input directory: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/generated-assets
+INFO    : verifying and expanding input directory: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/../assets
+INFO    : input directory expanded to absolute path: /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/assets
+INFO    : Runestone Services (via PreTeXt repository): version 6.3.16
+INFO    : Runestone Services (using newer, via online CDN query): version 6.3.25
+INFO    : converting /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx to HTML in /var/folders/5c/_c162qp11ts925kmc80lg7d00000gn/T/tmpcaa68zyt
+INFO    : XSL conversion of /Users/gurunanmapurushotam/Desktop/projects/REbook/hausa-ebook/source/main.ptx by /Users/gurunanmapurushotam/.ptx/xsl/pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    :     * PTX:ERROR: the @xml:id value "exercises-checkIn" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "coding-exercise-two-six" should be unique, but is authored 3 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     * PTX:ERROR: the @label value "exercises-checkIn" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @label value "I am ready to start" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     *              located within: "exercises-checkIn" (xml:id)
+INFO    :     * PTX:ERROR: the @label value "coding-exercise-two-six" should be unique, but is authored 3 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     *              located within: "coding-exercise-two-six" (xml:id), "Activity Coding Exercise" (title)
+INFO    :     * PTX:BUG: asking if a non-traditional division (introduction) is structured or not
+INFO    :     * PTX:BUG: asking if a non-traditional division (introduction) is structured or not
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    :     * PTX:BUG:   an element ("introduction") does not know its level
+INFO    :     *              located within: "ch_three" (xml:id), "Arrays " (title)
+INFO    : successful application of /Users/gurunanmapurushotam/.ptx/xsl/pretext-html.xsl
+INFO    : 
+Success! Run `pretext view web` to see the results.
 
 INFO    : 
 Closing server...
