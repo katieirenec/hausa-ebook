@@ -12,32 +12,30 @@
   <section xml:id="ch_one_sec_one">
     <!-- <title>Subchapter Title</title> -->
     <introduction>
-      <p>
+    <tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        
         Mahimman abun koya
         <ul>
           <li>
-            <p>Dalibai za su fahimci cewa kirkira ya ƙunshi jerin umarni</p>
+            Dalibai za su fahimci cewa kirkira ya ƙunshi jerin umarni
           </li>
           <li>
-            <p>Dalibai za su fahimci…</p>
-            <ul>
-              <li>
-                <p>
-                  Mai ma kirkiri ya ke yi
-                </p>
-              </li>
-              <li>
-                <p>
-                  Aikin ma kirkiri
-                </p>
-              </li>
-            </ul>
+            Dalibai za su fahimci mai ma kirkiri ya ke yi
           </li>
           <li>
-            <p>Dalibai za su fahimci sashen Masarrafar Bayanai, na’urori masu shigar da ko fitar da bayanai, RAM, Ma’aji na biyu - (sassan kwamfuta) muhimman sassan kwamfuta</p>
+            Dalibai za su fahimci aikin ma kirkiri
+          </li>
+          <li>
+            Dalibai za su fahimci sashen Masarrafar Bayanai, na’urori masu shigar da ko fitar da bayanai, RAM, Ma’aji na biyu - (sassan kwamfuta) muhimman sassan kwamfuta
           </li>
         </ul>
-      </p>
+      
+      </cell>
+    </row>
+  </tabular>
+      
     </introduction>
 
     <p>Menene kirkira? Sannan ta yaya zan iya fara kirkira? Ina dai tsammanin ka kasance a wannan wajen ne domin wannan manufa. Ko koma ka na su ka tuna wasu abubuwa game da sha’anin kirkirar manhaja da ka taba karantawa a baya. Koma dai yayane, wannnan littafin zai kasance maka wani haske ne da zai kasance mafarin sanin wannan harkan na kirkira. Saboda haka,
@@ -103,9 +101,9 @@
     amsar wasu tambayoyin da ba a yisu anan ba zasu zo a nan gaba kadan a
     wannan littafin in Allah ya yarda.
     </p>
-    <p>
+    <term>
       culturally relevant examples
-    </p>
+    </term>
     <exercises xml:id="exercises-ch_one_sec_one_two">
       <exercise>
 
@@ -224,17 +222,109 @@
       </exercise>
     </exercises>
 
-  <remark>
-    <p>
-      Abinda ake nufi da ‘high level language’ ko
-muce yaren da mutum dan adam ke iya fahimta shine, duk wani yare da
-dan adam ke amfani da shi a matsayin hanyar zayyana ko isar da sako.
-
-    </p>
-  </remark>
   <p>
-    TODO
+    Sashen Masarrafar Bayanai (SMB) wato ‘Central Processing Unit (CPU)’
+shine kwakwalwar na’urar komfiwta, shine yake kula da duk wasu aikace-
+aikacen da ke faruwa a cikin na’urar komfiwtar wannan kuwa ya shafi aiwatar
+da duk wani aiki ko aikin manhaja. Zai karbi bayani daga waje, sannan ya
+aiwatar da lissafi sannan ya mika sakamakon da ya samo zuwa waje ta
+hanyar na’urori masu fitar da bayanai (output devices). Hoton Sashen
+masarrafar bayanai (CPU).
   </p>
+
+  <p>
+    Ƙwaƙwalwar ajiya da ake kira da ‘main memory’ ko koma ‘primary memory’ wato Ƙwaƙwalwar ajiya na farko da ya fi sauri.
+  </p>
+  <p>
+    ‘Rondom Access Memory’ wato “RAM” a takaice. Shima kuwa yana da
+matukar amfani ga kowane irin na’urar komfiwta a wajen adana tsare-
+tsarensa dake faruwa a take a cikin na’urar. Wannan ma’aji shine sashen da
+masarrafar bayanai ke adana duk wasu umarnin tsare-tsaren dake faruwa a
+yayin sarrafa bayanai a wannan lokacin, saboda haka; ana kaddara wannan
+sashene a matsayin ma’ajin da yake samar da filin da ke adana duk wasu
+tsare-tsaren da sashen masarrafar bayanan ke sarrafasu a wannan lokacin
+wannan kuwa ya shafi hatta manhajojin da ke amfani a wannan lokacin.
+Matukar aka kashe na’urar komfiwta to kuwa duk abin da yake kan wannan
+ma’ajin zai zama babu domin dama yana adana bayani ne na tsawon
+daukewar wutar lantarki daga na’urar. (Ma’ajin farko (RAM) ana sanya shi
+ne a cikin gurbin sashen masarrafar bayanai a tsarin kirkiranrsa a zahiri)
+(Hoton Wannan ma’aji). Misali. yayinda kake karbar lambar waya, to matukar
+baka adanashi a wani ma’ajin ba to kuwa zaka rasa wannan lambar domin
+a wancen lokacin da kake karbar lambar yana zamane akan ma’ajin ‘RAM’
+to shi kuwa dama munce wannan ma’ajin yana rike bayanine na tsawon
+daukewar wutar lantarki daga na’urar.
+
+  </p>
+
+  <term>
+    (RAM is stored in chips)(Insert images)
+  </term>
+
+  <p>
+    Na’urori masu shigar da ko fitar da bayanai (Input/Output devices) –
+Wadannan wasu na’urorine da ake iya gani a cikin na’urar komfiwta sannan
+suna taimakawa komfiwta a wajen karbar bayani sannan su aika bayanin
+zuwa sashen masarrafar bayanai ko kuma su bayyana bayanin ta hanyar
+nuni, jiyarwa, da kuma alama. Na’urori masu shigar da bayanai (Input
+devices) sune kamar su; allon rubutun komfiwta (Keyboard), na’urar karbar
+magana (microphones), na’ura mai fahimtar alamu (sensors), na’urar
+wasanni (track pad), linzamin komfiwta (mouse), na’urar daukar hoto
+(Cameras), na’urar tsabtace hoto (scanners), da dai sauransu. Dukkansu
+wadannan na’urorin ana amfani da su ne a wajen karbar bayanai daga mai
+amfani da na’urar komfiwta ko dai daga wasu na’urorin.
+Na’urori masu fitar da bayanai (Output devices): sune irinsu; allon
+manunin komfiwta (Monitor), amsa-kowa (Speaker), na’urar buga takarda
+(Printer), na’urar haska fuskar komfiwta (Projector) da dai sauransu. Dukka
+wadannan amfaninsu shine fitar da bayanai zuwa waje domin amfanin dan
+adam.
+  </p>
+
+  <p>
+    Ma’aji na biyu (Secondary storage): Wannan ma’ajine dake adana bayani
+zuwa lokaci mai tsawo. Bayanan da aka sarrafasu bayan sun bar ma’ajin
+farko (RAM) zasu wuce ne kai-tsaye zuwa ma’aji na biyu (Secondary
+storage) domin samun wurin zama din-din-din. Saboda haka; bayanan da
+aka adana a ma’aji na biyu, za a iya daukarsu a koda yaushe ake bukata
+koda na’urar ya mutu saboda rashin wutar lantarki idan ka kunna shi zaka
+samu bayanan. Duk wasu manhajoji da kuma tsare-tsaren komfiwtar an
+adanashi ne a wannan ma’aji amma yayinda ake son fara amfani da su sai
+su hau zuwa ma’ajin farko (RAM) domin shirin fara aiki idan aka bukaci
+hakan. Ire-iren ma’aji na biyu (Secondary storage) sune; nau’in ma’aji da ake
+sanyasu ta kafar USB kamar su; flash. da nau’in ma’aji da hasken ‘laser’ ke
+karantasu (Optical storage devices) kamarsu: CD, DVD. da kuma nau’in
+ma’ajin da suke da tsarin maga-na-isu (Magnet) a cikinsu. kamar madaukan
+faifayin had disk (Hard Disk Drives).
+  </p>
+
+  <exercises xml:id="exercises-ch_one_sec_two_three">
+    <exercise label="matching-computer-parts">
+  <title>Matching Problem, Computer Parts</title>
+  <!-- <idx>matching US dates</idx> -->
+  <statement>
+    <p>
+      Match each event in United States history with the year it happened.
+    </p>
+  </statement>
+  <matches>
+  <match order="4">
+  <premise>Sashen Masarrafar Bayanai</premise>
+  <response>sarrafa bayane sai koma ya ba da amsa</response>
+  </match>
+  <match order="3">
+  <premise>Ƙwaƙwalwar ajiya</premise>
+  <response>aje bayanan da CPU za amfani da</response>
+  </match>
+  <match order="1">
+  <premise>Na’urori masu shigar da ko fitar da bayanai</premise>
+  <response>sassen da zai banmu mu shigar da ko fitar da sako</response>
+  </match>
+  <match order="2">
+  <premise>Ma’aji na biyu</premise>
+  <response>wuri aje bayane a waje kwamfuta</response>
+  </match>
+  </matches>
+</exercise>
+  </exercises>
 
 
   </section>

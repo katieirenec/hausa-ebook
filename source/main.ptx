@@ -14,8 +14,8 @@
   <!-- to some short (non-spaced) description of your book         -->
   <book xml:id="my-great-book">
     <!-- The book needs a title and can have a subtitle  -->
-    <title>Hausa Intro to Programming</title>
-    <subtitle>subtitle tbd</subtitle>
+    <title>Intro to Programming</title>
+    <subtitle>Hausa</subtitle>
 
     <!-- Now we include files containing each main devision.       -->
 
@@ -30,23 +30,24 @@
     <!-- title of the chapter is, rename the file something based  -->
     <!-- on the title (ch-shorttitle.ptx) both here and on disk    -->
     <!-- <xi:include href="./ch_first.ptx" /> -->
+
     <xi:include href="./ch_one.ptx" />
     <xi:include href="./ch_twotemplate.ptx"/>
     <xi:include href="./ch_three.ptx"/>
     <xi:include href="./ch_two.ptx"/>
     <xi:include href="./ch_four.ptx"/>
-    <xi:include href="./ch_six.ptx"/>
+    <xi:include href="./ch_six.ptx"/> -->
     <!-- <xi:include href="./ch_empty.ptx"/> -->
     
 
-    <xi:include href="./ch_five.ptx"/>
+    <!-- <xi:include href="./ch_five.ptx"/> -->
     <!-- Of course you will want to add more chapters as you proceed-->
 
     <!-- This chapter contains a wide variety of elements to  -->
     <!-- illustrate what pretext can do, plus links to more help.  -->
     <!-- We recommend keeping this handy, and commenting it out    -->
     <!-- when you show off your own work.                          -->
-    <xi:include href="./ch_features.ptx" />
+    <!-- <xi:include href="./ch_features.ptx" /> -->
 
 
         <xi:include href="./ch_template.ptx" />
