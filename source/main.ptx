@@ -35,8 +35,8 @@
     <xi:include href="./ch_twotemplate.ptx"/>
     <xi:include href="./ch_three.ptx"/>
     <xi:include href="./ch_two.ptx"/>
-    <xi:include href="./ch_four.ptx"/>
-    <xi:include href="./ch_six.ptx"/> -->
+    <!-- <xi:include href="./ch_four.ptx"/> -->
+    <!-- <xi:include href="./ch_six.ptx"/>  -->
     <!-- <xi:include href="./ch_empty.ptx"/> -->
     
 
