@@ -9,7 +9,7 @@
 
 <!-- <brandlogo url="" source="images/cover.png"/> -->
 <!-- <covers front="images/front.pdf" back="images/back.pdf"/> -->
-<document-id>unique-book-id</document-id>
+<document-id>kirkira-daga-farko</document-id>
 
 <!-- macros for defining latex math shortcuts. It is good practice  -->
 <!-- to define these semantically, so that the macro relates to what-->
