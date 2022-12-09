@@ -50,7 +50,7 @@
     <!-- <xi:include href="./ch_features.ptx" /> -->
 
 
-        <xi:include href="./ch_template.ptx" />
+        <!-- <xi:include href="./ch_template.ptx" /> -->
 
   
     <!-- This chapter includes several features that require pregeneration   -->
