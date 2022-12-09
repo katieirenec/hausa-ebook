@@ -8,6 +8,8 @@
   <targets>
     <!-- To build this target, run `pretext build web` -->
     <target name="runestone">
+      <format>html</format>
+      <source>source/main.ptx</source>
       <publication>publication/runestone.ptx</publication>
       <output-dir>published/kirkira-daga-farko</output-dir>
     </target>
