@@ -31,10 +31,13 @@
     <!-- on the title (ch-shorttitle.ptx) both here and on disk    -->
     <!-- <xi:include href="./ch_first.ptx" /> -->
 
-    <xi:include href="./ch_one.ptx" />
-    <xi:include href="./ch_twotemplate.ptx"/>
-    <xi:include href="./ch_three.ptx"/>
-    <xi:include href="./ch_two.ptx"/>
+    <xi:include href="./ch_one/ch_one.ptx" />
+    <xi:include href="./ch_two/ch_twotemplate.ptx"/>
+    <xi:include href="./ch_three/ch_three.ptx"/>
+    <xi:include href="./ch_four/ch_four.ptx"/>
+
+
+    <!-- <xi:include href="./ch_two.ptx"/> -->
     <!-- <xi:include href="./ch_four.ptx"/> -->
     <!-- <xi:include href="./ch_six.ptx"/>  -->
     <!-- <xi:include href="./ch_empty.ptx"/> -->

@@ -8,7 +8,7 @@
 <html lang="en-US">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Constant Variables</title>
+<title>Exercises</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -108,11 +108,11 @@ eBookConfig.enable_chatcodes =  false;
 <nav id="primary-navbar" class="navbar"><div class="container">
 <div class="navbar-top-buttons">
 <button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
-<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec_two-seven.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch_twotemplate.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec_two-nine.html" title="Next">Next</a></span>
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch_four.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch_four.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec_four-one.html" title="Next">Next</a></span>
 </div>
 </div>
 <div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
-<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec_two-seven.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch_twotemplate.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec_two-nine.html" title="Next">Next</a>
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch_four.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch_four.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec_four-one.html" title="Next">Next</a>
 </div>
 </div></nav></header><div class="page">
 <div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
@@ -136,7 +136,7 @@ eBookConfig.enable_chatcodes =  false;
 <li><a href="sec_two-five.html" data-scroll="sec_two-five" class="internal">Variables</a></li>
 <li><a href="sec_two-six.html" data-scroll="sec_two-six" class="internal">More About Variables!</a></li>
 <li><a href="sec_two-seven.html" data-scroll="sec_two-seven" class="internal">Basic Program</a></li>
-<li><a href="sec_two-eight.html" data-scroll="sec_two-eight" class="active">Constant Variables</a></li>
+<li><a href="sec_two-eight.html" data-scroll="sec_two-eight" class="internal">Constant Variables</a></li>
 <li><a href="sec_two-nine.html" data-scroll="sec_two-nine" class="internal">Comments</a></li>
 </ul>
 </li>
@@ -145,7 +145,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="link">
 <a href="ch_four.html" data-scroll="ch_four" class="internal"><span class="codenumber">4</span> <span class="title">BABI NA</span></a><ul>
-<li><a href="ch4-exercises-checkIn.html" data-scroll="ch4-exercises-checkIn" class="internal">Exercises</a></li>
+<li><a href="ch4-exercises-checkIn.html" data-scroll="ch4-exercises-checkIn" class="active">Exercises</a></li>
 <li><a href="sec_four-one.html" data-scroll="sec_four-one" class="internal">Data</a></li>
 </ul>
 </li>
@@ -156,35 +156,34 @@ eBookConfig.enable_chatcodes =  false;
 <li class="link"><a href="colophon-2.html" data-scroll="colophon-2" class="internal"><span class="title">Colophon</span></a></li>
 </ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
 </div></div>
-<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec_two-eight"><h2 class="heading hide-type">
-<span class="type">Section</span> <span class="codenumber">2.8</span> <span class="title">Constant Variables</span>
+<main class="main"><div id="content" class="pretext-content"><section class="exercises" id="ch4-exercises-checkIn"><h2 class="heading hide-type">
+<span class="type">Exercises</span> <span class="codenumber">4.1</span> <span class="title">Exercises</span>
 </h2>
-<div class="tabular-box natural-width"><table class="tabular"><tr><td class="l m b2 r2 l2 t2 lines">Learning Objective: <ul class="disc"><li id="li-20"><p id="p-derived-li-20">Student will be able to identify when to use a constant variable</p></li></ul>
-</td></tr></table></div>
-<p id="p-109">We have mentioned earlier that variables are changeable meaning you can change the value a variable is holding at any point in the program’s execution. What if you want to keep a variable at a constant value throughout the program? You don’t want to accidentally change it. You can then use a constant variable. A constant variable is a special type of variable that can not be changed while the program is executing. For example, let's go back to the example we were talking about earlier. Let’s assume that your school only had three classrooms, class1, class2, and class3. And the use of the total number of classrooms comes up frequently in the program implementation. We can use a constant variable in its place since.</p>
-<ol id="p-110" class="decimal">
-<li id="li-21"><p id="p-111">We do not need to change the value of the total number of classrooms while the program is executing.</p></li>
-<li id="li-22"><p id="p-112">If we replace all the places where we used to have the total number of classrooms “3” (number literal, A number literal is a number that appears fixed in a program. It is not a variable) with a constant if the number of classrooms ever changed to 4 or another number all we have to do is change the value of the constant before the program is run and it will be reflected in all places.</p></li>
-</ol>
-<p id="p-113">Constants are usually noted by naming the variable in all caps. For example;</p>
-<p id="p-114"><code class="code-inline tex2jax_ignore">Const Integer TOTAL_CLASSROOMS</code></p>
-<section class="exercises" id="exercises-14"><h3 class="heading hide-type">
-<span class="type">Exercises</span> <span class="codenumber"></span> <span class="title">Exercises</span>
-</h3>
-<article class="exercise exercise-like" id="Constants"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="ptx-runestone-container"><div class="runestone"><div data-component="fillintheblank" data-question_label="" id="Constants">
-<p id="p-115">Give a scenario where using a constant is more appropriate</p>
-<p id="p-116"><input type="text" placeholder="Text" size="50"></p>
-<script type="application/json">[[{"regex": "^\\s*.*\\s*$", "regexFlags": "", "feedback": "<p id=\"p-117\">Thank you for the example.<\/p>"}, 
-     
-    
-      
-        Please give a short answer example.
-      
-   
-    
-    ]]</script>
-</div></div></div></article></section></section></div></main>
+<article class="exercise exercise-like" id="ch4-I am ready to start"><h3 class="heading"><span class="codenumber">1<span class="period">.</span></span></h3>
+<div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="ch4-I am ready to start" data-multipleanswers="false">
+<p id="p-159">Are you feeling ready to continue?</p>
+<li data-component="answer" id="ch4-I am ready to start_opt_a" data-correct=""><p id="p-160">Yes, I'm ready!</p></li>
+<li data-component="feedback" id="ch4-I am ready to start_opt_a"><p id="p-161">Yay! Let's continue.</p></li>
+<li data-component="answer" id="ch4-I am ready to start_opt_b"><p id="p-162">No, I don't feel ready.</p></li>
+<li data-component="feedback" id="ch4-I am ready to start_opt_b"><p id="p-163">Oh no! Take some time to reread this chapter.</p></li>
+</ul></div></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-5" id="hint-5"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-5"><div class="hint solution-like"><p id="p-164">Ready? Let's start</p></div></div>
+</div></article><article class="exercise exercise-like" id="Pseudocode"><h3 class="heading"><span class="codenumber">2<span class="period">.</span></span></h3>
+<div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="Pseudocode" data-multipleanswers="true">
+<p id="p-165">Why might pseudocode be helpful?</p>
+<li data-component="answer" id="Pseudocode_opt_a" data-correct=""><p id="p-166">To help humans understand the application before programming it</p></li>
+<li data-component="feedback" id="Pseudocode_opt_a"><p id="p-167">Correct! pseudocode is used to help humans understand the code first.</p></li>
+<li data-component="answer" id="Pseudocode_opt_b"><p id="p-168">To help machines create a set of instructions.</p></li>
+<li data-component="feedback" id="Pseudocode_opt_b"><p id="p-169">Programmers create a set of instructions. Machines execute it.</p></li>
+<li data-component="answer" id="Pseudocode_opt_c"><p id="p-170">To help the CPU understand Low-level languages.</p></li>
+<li data-component="feedback" id="Pseudocode_opt_c"><p id="p-171">Pseudocode is not programmed into the machine. Try again</p></li>
+<li data-component="answer" id="Pseudocode_opt_d" data-correct=""><p id="p-172">For humans to easily understand logic and convert to a regular programming language</p></li>
+<li data-component="feedback" id="Pseudocode_opt_d"><p id="p-173">Yes, Correct.</p></li>
+</ul></div></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-6" id="hint-6"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-6"><div class="hint solution-like"><p id="p-174">Think: Why are flowcharts and pseudocode used before programming using regular programming language?</p></div></div>
+</div></article></section></div></main>
 </div>
 </body>
 </html>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Chapters are enclosed with <chapter> tags. Use xml:id to -->
+<!-- uniquely identify the chapter.  The @xmlns:xi attribute  -->
+<!-- is needed if you use xi:include in this file             -->
+<chapter xml:id="ch_four" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>BABI NA... </title>
+  <!-- If the chapter has sections, there may be an introduction -->
+  <!-- before those sections. Note the <p> tags around content.  -->
+
+  <tabular top="medium">
+    <row bottom="medium"  left="medium">
+      <cell  right="medium">
+        Learning Objective: 
+          Student will understand…
+          <!-- <p> -->
+            <ul >
+              <li >What pseudocode is </li >
+              <li >What the role of pseudocode is in programming </li >
+            </ul >
+          <!-- </p> -->
+      </cell>
+    </row>
+  </tabular>
+
+ <introduction>
+    <p>
+    <term>Keywords</term> are words that are reserved to be used as commands or cues for the compiler/interpreter to know that a certain task, job, mode, or setting is needed. For example, in this book, 
+    the keyword <term>Display</term> will be used to display to the screen. 
+    <term>Syntax</term> refers to the  rules of a computer language. 
+    </p>
+  
+    <p>
+      As mentioned in chapter 1 pseudocode is fake code that allows you to focus more on the structure and logic of a program. For the remainder of this book, we will focus more on pseudocode to expand on the various programming logic concepts and techniques. We will also use flow charts to illustrate graphically the logical process our programs undergo 
+      <!-- <figure>
+      <caption>Flowchart</caption> -->
+      <image source="LampFlowchart.png" width="50%">
+        <!-- <description>A nice-looking frog with a longish
+        description.</description> -->
+      </image>
+    <!-- </figure> -->
+      In this chapter, we will start with the basic fundamental idea of variables and data. We will discuss what they are, how to use them and finally how they are beneficial in our programs. We will also introduce you to the basic programming structure, Sequence structure. Lastly, this chapter will close with some examples to help you deepen your understanding of the concepts presented in the body of the chapter.   
+    </p>
+  </introduction>
+
+    <exercises xml:id="ch4-exercises-checkIn">
+      <exercise label="ch4-I am ready to start">
+        <!-- Title is optional. Statement is the actual problem question. -->
+        <!-- At least one choice must be marked as correct. Feedback can be removed but is encouraged. -->
+        <!-- <title>Multiple-Choice, Not Randomized, One Answer</title> -->
+        <statement>
+          <p>Are you feeling ready to continue?</p>
+        </statement>
+
+        <choices>
+          <choice correct="yes">
+            <statement>
+              <p>Yes, I'm ready!</p>
+            </statement>
+            <feedback>
+              <p>
+                Yay! Let's continue.
+              </p>
+            </feedback>
+          </choice>
+
+          <choice>
+            <statement>
+              <p>No, I don't feel ready.</p>
+            </statement>
+            <feedback>
+              <p>Oh no! Take some time to reread this chapter.</p>
+            </feedback>
+          </choice>
+        </choices>
+        <hint>
+          <p>Ready? Let's start</p>
+        </hint>
+      </exercise>
+
+      <exercise label="Pseudocode">
+        <statement>
+          <p>
+            Why might pseudocode be helpful?
+          </p>
+        </statement>
+      <choices>
+    <choice correct="yes">
+      <statement>
+        <p>
+          To help humans understand the application before programming it
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Correct! pseudocode is used to help humans understand the code first.
+        </p>
+      </feedback>
+    </choice>
+    <choice>
+      <statement>
+        <p>
+          To help machines create a set of instructions.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Programmers create a set of instructions. Machines execute it. 
+        </p>
+      </feedback>
+    </choice>
+    <choice>
+      <statement>
+        <p>
+          To help the CPU understand Low-level languages.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Pseudocode is not programmed into the machine. Try again
+        </p>
+      </feedback>
+    </choice>
+    <choice correct="yes">
+      <statement>
+        <p>
+          For humans to easily understand logic and convert to a regular programming language
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Yes, Correct.
+        </p>
+      </feedback>
+    </choice>
+  </choices>
+  <hint>
+    <p>
+      Think: Why are flowcharts and pseudocode used before programming using regular programming language?
+    </p>
+  </hint>
+   </exercise>
+    </exercises>
+
+  <xi:include href="./sec_four-one.ptx" />
+  </chapter>
