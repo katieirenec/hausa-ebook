@@ -8,7 +8,7 @@
 <html lang="en-US">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Data</title>
+<title>Introduction to Decision Structures</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -108,11 +108,11 @@ eBookConfig.enable_chatcodes =  false;
 <nav id="primary-navbar" class="navbar"><div class="container">
 <div class="navbar-top-buttons">
 <button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
-<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch4-exercises-checkIn.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch_four.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="meta_backmatter.html" title="Next">Next</a></span>
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch_four.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch_four.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="meta_backmatter.html" title="Next">Next</a></span>
 </div>
 </div>
 <div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
-<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch4-exercises-checkIn.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch_four.html" title="Up">Up</a><a class="next-button button toolbar-item" href="meta_backmatter.html" title="Next">Next</a>
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch_four.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch_four.html" title="Up">Up</a><a class="next-button button toolbar-item" href="meta_backmatter.html" title="Next">Next</a>
 </div>
 </div></nav></header><div class="page">
 <div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
@@ -144,10 +144,7 @@ eBookConfig.enable_chatcodes =  false;
 <a href="ch_three.html" data-scroll="ch_three" class="internal"><span class="codenumber">3</span> <span class="title">Arrays</span></a><ul><li><a href="sec_three-two.html" data-scroll="sec_three-two" class="internal">Accessing Array Elements</a></li></ul>
 </li>
 <li class="link">
-<a href="ch_four.html" data-scroll="ch_four" class="internal"><span class="codenumber">4</span> <span class="title">BABI NA</span></a><ul>
-<li><a href="ch4-exercises-checkIn.html" data-scroll="ch4-exercises-checkIn" class="internal">Exercises</a></li>
-<li><a href="sec_four-one.html" data-scroll="sec_four-one" class="active">Data</a></li>
-</ul>
+<a href="ch_four.html" data-scroll="ch_four" class="internal"><span class="codenumber">4</span> <span class="title">BABI NA...</span></a><ul><li><a href="sec_four-one.html" data-scroll="sec_four-one" class="active">Introduction to Decision Structures</a></li></ul>
 </li>
 <li class="link backmatter"><a href="meta_backmatter.html" data-scroll="meta_backmatter" class="internal"><span class="title">Backmatter</span></a></li>
 <li class="link"><a href="solutions-1.html" data-scroll="solutions-1" class="internal"><span class="codenumber">A</span> <span class="title">Selected Hints, Answers, Solutions</span></a></li>
@@ -157,30 +154,58 @@ eBookConfig.enable_chatcodes =  false;
 </ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
 </div></div>
 <main class="main"><div id="content" class="pretext-content"><section class="section" id="sec_four-one"><h2 class="heading hide-type">
-<span class="type">Section</span> <span class="codenumber">4.2</span> <span class="title">Data</span>
+<span class="type">Section</span> <span class="codenumber">4.1</span> <span class="title">Introduction to Decision Structures</span>
 </h2>
-<div class="tabular-box natural-width"><table class="tabular"><tr><td class="l m b2 r2 l2 t2 lines">Learning Objective: Student will be able to... <ul class="disc">
-<li id="li-31"><p id="p-derived-li-31">Define the term data</p></li>
-<li id="li-32"><p id="p-derived-li-32">Find examples of importance of data in their own lives</p></li>
+<div class="tabular-box natural-width"><table class="tabular"><tr><td class="l m b2 r2 l2 t2 lines">Learning Objectives: Student will be able to... <ul class="disc">
+<li id="li-29"><p id="p-derived-li-29">understand why decision structures are important</p></li>
+<li id="li-30"><p id="p-derived-li-30">identify a situation where a decision structure would be helpful</p></li>
 </ul>
 </td></tr></table></div>
-<p id="p-175">To start off, what is data? Why is it important? And how do we use it in our programs? <dfn class="terminology">Data is a collection of information that is gathered.</dfn> It is important because data helps us understand and describe things around us. For example, let’s say you are very curious about what class has the most amount of students. You go around each class counting how many students are in that class and you write it down in your journal. What you are collecting is called data. Once you are done you can use that data to describe things such as saying a particular class is the largest or the smallest in terms of number of students. You can also then take the average and find out what the typical number of students in a class is and so on. You can also use data to understand things better. Let’s go back to the example of you gathering data on the amount of students per class. Let’s say you and your friends were always curious as to why your classroom is smaller than the one right next to yours. You ask your teacher what makes a deciding factor in making a classroom big or small. Your teacher answers by saying the number of students. You use the data you found earlier and see that the number of students in the class right next to yours is twice the amount in your class, hence why the classroom is bigger. Here you use data for understanding phenomena around you.</p>
-<section class="exercises" id="exercises-18"><h3 class="heading hide-type">
+<p id="p-157">In this chapter we will explore the concept of decision structures. We will look at what it means to include such a structure in your program, the different components that make up the structure, what the pseudo-implementation of it looks like, and how we can implement it ourselves in C++. Lastly, this chapter will conclude with examples and practice problems to help further your understanding of the body of the chapter.</p>
+<p id="p-158">Imagine you want your program to execute a piece of code but only under certain conditions. For example, Haider wants to help his sister, Maimina, with her cafe. To promote her business Maimina offers discounts to customers that spend ₦5000 or more. Haider decided to create a program that prints a discount code for customers that qualify for the discount. Customers can then use their code on future purchases.</p>
+<dfn class="terminology">How did Haider achieve this?</dfn><p id="p-159">The structure Haider implemented in his code is called a decision structure. A decision structure is different from a sequence structure in that every line is not executed one after the other from top to bottom. Decision structures allow for decisions to be made on which lines of code to execute. The concept behind this flow of logic is to allow for certain segments to be run under certain conditions. Take this for instance, as Ali is walking back from school if he sees a rock in the path he walks around it. Ali walking back from school is the sequence structure as we have learned in chapter 2. He keeps walking step by step in sequential order however under the condition he sees a rock the sequence changes and he walks around it. Decision Structures can be implemented anywhere that requires a decision to be made.</p>
+<figure class="figure figure-like" id="figure-11"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/ifstatementdiagram.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure><section class="exercises" id="exercises-17"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber"></span> <span class="title">Exercises</span>
 </h3>
-<article class="exercise exercise-like" id="Collect Data"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="ptx-runestone-container"><div class="runestone"><div data-component="fillintheblank" data-question_label="" id="Collect Data">
-<p id="p-176">Give an example of where else data is collected.</p>
-<p id="p-177"><input type="text" placeholder="Text" size="50"></p>
-<script type="application/json">[[{"regex": "^\\s*.*\\s*$", "regexFlags": "", "feedback": "<p id=\"p-178\">Thank you for the example.<\/p>"}, 
-    
-      
-        Please give a short answer example.
-      
-   
-    
-    ]]</script>
-</div></div></div></article></section></section></div></main>
+<article class="exercise exercise-like" id="tf-decision structure"><h4 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">True or False.</span>
+</h4>
+<div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" data-multipleanswers="false" id="tf-decision structure">
+<p id="p-160">Every statement in a decision structure is executed by the program</p>
+<li data-component="answer" id="tf-decision structure_opt_t"><p>True.</p></li>
+<li data-component="feedback" id="tf-decision structure_opt_t"><p id="p-161">Why do we have decision structures?</p></li>
+<li data-component="answer" id="tf-decision structure_opt_f" data-correct=""><p>False.</p></li>
+<li data-component="feedback" id="tf-decision structure_opt_f"><p id="p-161">Why do we have decision structures?</p></li>
+</ul></div></div></article><div class="exercisegroup" id="exercisegroup-1">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-4"><p id="p-162">To complete the following activities select the correct answer to the question</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="multiple-choice-decision-structure"><h5 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Multiple-Choice.</span>
+</h5>
+<div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="multiple-choice-decision-structure" data-multipleanswers="false" data-random="">
+<p id="p-163">Which scenario is best suited for a decision structure?</p>
+<li data-component="answer" id="multiple-choice-decision-structure_opt_a" data-correct=""><p id="p-164">Your program takes user input that is different every time</p></li>
+<li data-component="feedback" id="multiple-choice-decision-structure_opt_a">
+<li data-component="answer" id="multiple-choice-decision-structure_opt_b"><p id="p-165">Your program uses the same variables and values every time it is run</p></li>
+<li data-component="feedback" id="multiple-choice-decision-structure_opt_b">
+<li data-component="answer" id="multiple-choice-decision-structure_opt_c"><p id="p-166">Your program takes user input but needs to execute every statement</p></li>
+<li data-component="feedback" id="multiple-choice-decision-structure_opt_c">
+</ul></div></div></article><article class="exercise exercise-like" id="multiple-choice-decision-structure-2"><h5 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Multiple-Choice.</span>
+</h5>
+<div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="multiple-choice-decision-structure-2" data-multipleanswers="false" data-random="">
+<p id="p-167">Which of the following is INCORRECT?</p>
+<li data-component="answer" id="multiple-choice-decision-structure-2_opt_a"><p id="p-168">programs with decision structures can also incorporate sequential structures in them</p></li>
+<li data-component="feedback" id="multiple-choice-decision-structure-2_opt_a">
+<li data-component="answer" id="multiple-choice-decision-structure-2_opt_b"><p id="p-169">Decision structures allow for a decision to be made in order to determine the code to execute</p></li>
+<li data-component="feedback" id="multiple-choice-decision-structure-2_opt_b">
+<li data-component="answer" id="multiple-choice-decision-structure-2_opt_c" data-correct=""><p id="p-170">You can only have one decision structure in your program</p></li>
+<li data-component="feedback" id="multiple-choice-decision-structure-2_opt_c">
+</ul></div></div></article>
+</div>
+</div></section></section></div></main>
 </div>
 </body>
 </html>

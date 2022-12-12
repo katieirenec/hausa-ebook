@@ -43,12 +43,7 @@
     akan wannan fanni na kirkirar manhaja, sannnan ina tsammanin harma za ka 
     samu damar iya kirkirar naka karamun manhajar.
     </p>
-    <!-- <figure>
-      <caption>Example caption</caption>
-      <image source="frog.jpg" width="50%">
-        <description>Accessibility Description</description>
-      </image>
-    </figure> -->
+    
 
     <exercises xml:id="exercises-ch_one_sec_one">
       <exercise>
@@ -170,7 +165,10 @@
       Misalin irin wadannan na’urorin masu ƙwaƙwalwa sun hada da irinsu; kwamfutar cinya (Laptop), kwamfutar kan tebur (Desktop), na’urorin lissafi (Calculators), na’urorin samar da zafi domin gasa ko dumama abu (Microwaves), na’urorin  jagora domin nuna guri (navigation devices). 
     </p>
     
-
+    <figure>
+      <image source="computer.jpeg" width="50%">
+      </image>
+    </figure>
 
     <exercises xml:id="exercises-ch_one_sec_two">
       <exercise label="short-answer-question">
@@ -228,9 +226,13 @@ shine kwakwalwar na’urar komfiwta, shine yake kula da duk wasu aikace-
 aikacen da ke faruwa a cikin na’urar komfiwtar wannan kuwa ya shafi aiwatar
 da duk wani aiki ko aikin manhaja. Zai karbi bayani daga waje, sannan ya
 aiwatar da lissafi sannan ya mika sakamakon da ya samo zuwa waje ta
-hanyar na’urori masu fitar da bayanai (output devices). Hoton Sashen
-masarrafar bayanai (CPU).
+hanyar na’urori masu fitar da bayanai (output devices).
   </p>
+
+  <figure>
+      <image source="cpu.jpeg" width="50%">
+      </image>
+    </figure>
 
   <p>
     Ƙwaƙwalwar ajiya da ake kira da ‘main memory’ ko koma ‘primary memory’ wato Ƙwaƙwalwar ajiya na farko da ya fi sauri.
@@ -257,8 +259,12 @@ daukewar wutar lantarki daga na’urar.
   </p>
 
   <term>
-    (RAM is stored in chips)(Insert images)
+    (RAM is stored in chips)
   </term>
+  <figure>
+      <image source="ram.jpeg" width="50%">
+      </image>
+    </figure>
 
   <p>
     Na’urori masu shigar da ko fitar da bayanai (Input/Output devices) –
@@ -278,6 +284,10 @@ manunin komfiwta (Monitor), amsa-kowa (Speaker), na’urar buga takarda
 wadannan amfaninsu shine fitar da bayanai zuwa waje domin amfanin dan
 adam.
   </p>
+  <figure>
+      <image source="iodevice.jpeg" width="50%">
+      </image>
+    </figure>
 
   <p>
     Ma’aji na biyu (Secondary storage): Wannan ma’ajine dake adana bayani
@@ -295,6 +305,11 @@ karantasu (Optical storage devices) kamarsu: CD, DVD. da kuma nau’in
 ma’ajin da suke da tsarin maga-na-isu (Magnet) a cikinsu. kamar madaukan
 faifayin had disk (Hard Disk Drives).
   </p>
+
+  <figure>
+      <image source="cd.jpeg" width="50%">
+      </image>
+    </figure>
 
   <exercises xml:id="exercises-ch_one_sec_two_three">
     <exercise label="matching-computer-parts">
